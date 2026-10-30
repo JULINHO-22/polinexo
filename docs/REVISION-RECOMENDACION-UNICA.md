@@ -1,0 +1,8 @@
+# Recomendación única y cobertura docente
+La vista Mejorar mi promedio ya no pide escoger 3/4/5 materias. Calcula una propuesta de 9–15 créditos con énfasis en notas por áreas y carga, explica su fundamento y permite preguntar a Nexi con esa selección exacta, sin guardarla en silencio. No estima probabilidad de subir el promedio.
+La ficha usa dos pestañas: Materia y Profesores; evita apilar seis desplegables. Datos SAAC y PoliRecomienda se muestran separados: periodos/paralelos frente a promedios ajustados sin periodo publicado.
+Se verificaron SAAC 2026-1S: Diseño de software CCPG1042 (2 docentes); Matemáticas discretas MATG1051 (3 docentes, 5 paralelos). Se verificó PoliRecomienda Diseño de software CCPG1042: Mera 94.18, Jurado 83.59, consulta 30/10/2026. Muestra parcial; no todos los periodos o docentes. Se mantienen las otras muestras documentadas.
+La captura aportada muestra MATG1005, no MATG1051. La tabla primaria de convalidaciones FIEC 2017→2020 confirma la correspondencia; se registra aparte en review-code-mappings.json. No se transfieren esos puntajes a periodos actuales: se obtuvieron directamente los de MATG1051. Fuente: https://www.fiec.espol.edu.ec/sites/fiec.espol.edu.ec/files/ReglaTransicionComputacion2020.pdf
+No se afirma ausencia de evaluaciones en la web cuando la muestra local no incluye una materia. La IA recibe también los puntajes ajustados como evidencia separada. Una evaluación docente no es tasa de aprobación, dificultad o garantía de mejorar notas.
+
+Se completaron además Programación de sistemas (2 docentes, 3 paralelos de 2026-1S) y Estadística (6 docentes, 12 paralelos de 2026-1S, páginas 1 y 2). El histórico anterior no está cubierto por completo.

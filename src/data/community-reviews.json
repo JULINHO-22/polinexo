@@ -172,6 +172,32 @@
       "sourceUrl": "https://polirecomienda.robtrivi.com/inicio",
       "status": "Código y puntaje observados en tabla pública",
       "permission": "Hechos públicos con atribución; sin licencia de base de datos confirmada. No se copian fotografías ni comentarios."
+    },
+    {
+      "courseCode": "CCPG1042",
+      "teacherName": "CARLOS JOSEPH MERA GOMEZ",
+      "score": 94.18,
+      "metric": "Promedio ajustado de PoliRecomienda",
+      "scale": null,
+      "sampleSize": null,
+      "period": null,
+      "checked": "2026-10-30",
+      "sourceUrl": "https://polirecomienda.robtrivi.com/inicio",
+      "status": "Código CCPG1042 y puntaje observados en tabla pública",
+      "permission": "Hechos públicos con atribución; sin fotografías ni comentarios"
+    },
+    {
+      "courseCode": "CCPG1042",
+      "teacherName": "DAVID ALONSO JURADO MOSQUERA",
+      "score": 83.59,
+      "metric": "Promedio ajustado de PoliRecomienda",
+      "scale": null,
+      "sampleSize": null,
+      "period": null,
+      "checked": "2026-10-30",
+      "sourceUrl": "https://polirecomienda.robtrivi.com/inicio",
+      "status": "Código CCPG1042 y puntaje observados en tabla pública",
+      "permission": "Hechos públicos con atribución; sin fotografías ni comentarios"
     }
   ],
   "schema": {

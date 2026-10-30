@@ -67,3 +67,6 @@ No se encontraron en las fuentes públicas consultadas tasas verificables de apr
 
 ## Premios y despliegue
 Modelo exacto **gemma-4-26b-a4b-it**, mediante **Gemini API**, SDK @google/genai. Gemma interpreta consultas y explica planes en el chat y la revisión automática; el motor valida sus propuestas. Código original bajo MIT. Ver [categorías, integración y Render](docs/REPOSITORIOS-Y-RENDER.md). Render: Web Service Node 24, build `npm ci && npm run build`, start `npm start`; GEMINI_API_KEY solo en Environment.
+
+### Revisión de recomendaciones y docentes
+Mejorar mi promedio presenta una sola propuesta y permite conversar sobre esa selección. La ficha separa Materia y Profesores. SAAC cubre una muestra de seis materias y PoliRecomienda una muestra de tres; no hay sincronización automática ni cobertura completa. Datos por código y periodo, sin convertir evaluaciones en probabilidades. Ver [revisión y fuentes](docs/REVISION-RECOMENDACION-UNICA.md).

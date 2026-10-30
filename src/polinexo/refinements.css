@@ -48,3 +48,25 @@
 .delay-alert{padding:12px;border-left:3px solid #b98b30;background:#fff9eb;font-size:12px;line-height:1.5}
 
 .professor-card>summary::after{content:"⌄";color:#73889b;align-self:center}.professor-card[open]>summary::after{content:"⌃"}
+
+/* One recommendation, then an optional conversation. */
+.recommendation-story{padding-top:12px}.recommendation-story .flow-heading{margin-bottom:16px}
+.recommendation-voice{border-left:3px solid #789db4;padding:3px 0 3px 16px;margin:18px 0 22px}
+.voice-signature{color:#547893;font-size:11px;font-weight:600}.recommendation-voice>p{font-size:15px;line-height:1.65;color:#36526d;margin:8px 0 12px}
+.recommendation-voice>small{font-size:10px;color:#758698;display:block;margin-top:10px}
+.recommendation-measures{display:flex;gap:22px;color:#657c90;font-size:11px}.recommendation-measures b{font-size:19px;color:#294f75;margin-right:4px}
+.recommended-list{border-top:1px solid #dce5ed}.recommended-subject{display:flex;gap:13px;align-items:center;padding:13px 0;border-bottom:1px solid #dce5ed}
+.subject-number{font-size:12px;color:#8198aa;width:15px}.recommended-subject>button{border:0!important;background:none!important;padding:0!important;flex:1;display:block;text-align:left;min-height:42px}
+.recommended-subject strong{display:block;font-size:14px;line-height:1.35}.recommended-subject small{display:block;font-size:10px;color:#73899c;margin-top:5px}
+.recommendation-actions{display:grid;gap:8px;margin-top:22px}.ask-recommendation{border:0!important;background:none!important;color:#3d688d!important}.recommendation-method{font-size:11px;color:#708394;margin-top:18px}.recommendation-method p{line-height:1.6}
+.context-detail.course-sheet{height:auto!important;max-height:calc(100dvh - 130px)!important;bottom:auto!important;top:50%!important;transform:translateY(-50%);background:#fff!important;padding:22px!important;border-radius:20px!important;box-shadow:0 15px 70px #18375424}
+.course-sheet .sheet-heading{padding-right:36px}.course-sheet .sheet-heading small{font-size:11px;color:#71869a}.course-sheet .sheet-heading h2{padding:0;margin:7px 0 18px!important;font-size:21px!important}
+.sheet-tabs{display:flex;gap:24px;border-bottom:1px solid #e1e7ef;margin-bottom:20px}.sheet-tabs button{border:0!important;border-bottom:2px solid transparent!important;border-radius:0!important;background:none!important;padding:10px 0!important;color:#8192a2!important;font-weight:600!important}.sheet-tabs button[aria-selected=true]{color:#294f75!important;border-bottom-color:#294f75!important}
+.sheet-purpose{display:flex;gap:13px;color:#365b7e;margin:0 0 22px}.sheet-purpose>svg{flex-shrink:0;margin-top:2px}.course-sheet h3{font-size:12px;margin:0 0 7px}.sheet-purpose p{font-size:15px!important;line-height:1.5;margin:0 0 8px!important}.sheet-purpose small{font-size:11px;line-height:1.55;color:#7b8e9f;display:block}
+.sheet-requirements,.sheet-next{padding:14px 0;border-top:1px solid #e4eaf0}.course-sheet p{font-size:12px;line-height:1.5;margin:6px 0}.sheet-requirements p span{display:block;font-size:10px;color:#8494a4;margin-bottom:3px}
+.sheet-workload{display:flex;flex-direction:column;gap:4px;background:#f3f7fa;padding:11px 13px;border-radius:9px;font-size:12px;color:#385978}.sheet-workload small{font-size:10px;color:#8192a2}
+.sheet-footer{margin-top:17px;display:flex;justify-content:space-between;align-items:center;gap:10px}.sheet-footer>button{background:none!important;border:0!important;padding:0!important;color:#315a80!important}.sheet-footer details{font-size:10px;color:#8192a2}
+.teacher-results{background:none!important;padding:0!important}.teacher-source-tabs{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:10px}.teacher-source-tabs button{font-size:10px!important;padding:7px 9px!important;min-height:30px!important;border-radius:7px!important}.teacher-source-tabs button[aria-pressed=true]{background:#e8f0f7!important;border-color:#7897b0!important}
+.teacher-footnote{display:block;font-size:10px;color:#7a8e9f;margin:14px 0 8px}
+
+.context-detail.course-sheet{box-shadow:0 0 0 100vmax #15304d66,0 15px 70px #18375424}

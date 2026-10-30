@@ -1,7 +1,7 @@
 {
   "checked": "2026-10-30",
   "source": "https://saac.espol.edu.ec/heteroevaluacion-reportes/paralelos-materia/CCPG1034/1/10",
-  "coverage": "Muestra parcial: Estructuras de datos y Sistema de bases de datos. Valores por docente y periodo; no cubre todo el histórico.",
+  "coverage": "Muestra de seis materias; periodos y paralelos identificados por registro. No cubre todo el histórico ni la oferta actual.",
   "records": [
     {
       "teacher": "COLLAGUAZO JARAMILLO ADRIANA ELISA",
@@ -18,7 +18,8 @@
           "score": 91.95,
           "responsePercent": 100
         }
-      ]
+      ],
+      "sourceUrl": "https://saac.espol.edu.ec/heteroevaluacion-reportes/paralelos-materia/CCPG1034/1/10"
     },
     {
       "teacher": "SANTILLAN PADILLA STEVEN ISAAC",
@@ -30,7 +31,8 @@
           "score": 98.25,
           "responsePercent": 94
         }
-      ]
+      ],
+      "sourceUrl": "https://saac.espol.edu.ec/heteroevaluacion-reportes/paralelos-materia/CCPG1034/1/10"
     },
     {
       "teacher": "CRUZ RUIZ VÍCTOR HUGO",
@@ -42,7 +44,8 @@
           "score": 85.2,
           "responsePercent": 92
         }
-      ]
+      ],
+      "sourceUrl": "https://saac.espol.edu.ec/heteroevaluacion-reportes/paralelos-materia/CCPG1034/1/10"
     },
     {
       "teacher": "CHEUNG RUIZ IRENE MEIYING",
@@ -54,7 +57,8 @@
           "score": 88.2,
           "responsePercent": 97
         }
-      ]
+      ],
+      "sourceUrl": "https://saac.espol.edu.ec/heteroevaluacion-reportes/paralelos-materia/TICG1018/1/10"
     },
     {
       "teacher": "MAGALLANES BORBOR JORGE ANTONIO",
@@ -66,7 +70,8 @@
           "score": 95.62,
           "responsePercent": 100
         }
-      ]
+      ],
+      "sourceUrl": "https://saac.espol.edu.ec/heteroevaluacion-reportes/paralelos-materia/TICG1018/1/10"
     },
     {
       "teacher": "MALO PINZA FRANK CARLOS",
@@ -78,7 +83,8 @@
           "score": 89.5,
           "responsePercent": 94
         }
-      ]
+      ],
+      "sourceUrl": "https://saac.espol.edu.ec/heteroevaluacion-reportes/paralelos-materia/TICG1018/1/10"
     },
     {
       "teacher": "SUAREZ RIOFRIO PATRICIA LEONOR",
@@ -90,7 +96,230 @@
           "score": 93.64,
           "responsePercent": 100
         }
+      ],
+      "sourceUrl": "https://saac.espol.edu.ec/heteroevaluacion-reportes/paralelos-materia/TICG1018/1/10"
+    },
+    {
+      "courseCode": "CCPG1042",
+      "teacher": "JURADO MOSQUERA DAVID ALONSO",
+      "period": "2026-1S",
+      "sections": [
+        {
+          "parallel": "1",
+          "score": 90.25,
+          "responsePercent": 97
+        }
+      ],
+      "sourceUrl": "https://saac.espol.edu.ec/heteroevaluacion-reportes/paralelos-materia/CCPG1042/1/10"
+    },
+    {
+      "courseCode": "CCPG1042",
+      "teacher": "MERA GOMEZ CARLOS JOSEPH",
+      "period": "2026-1S",
+      "sections": [
+        {
+          "parallel": "2",
+          "score": 99.08,
+          "responsePercent": 97
+        }
+      ],
+      "sourceUrl": "https://saac.espol.edu.ec/heteroevaluacion-reportes/paralelos-materia/CCPG1042/1/10"
+    },
+    {
+      "courseCode": "MATG1051",
+      "teacher": "HERNANDEZ RODRIGUEZ CRISTHIAN XAVIER",
+      "period": "2026-1S",
+      "sections": [
+        {
+          "parallel": "1",
+          "score": 94.21,
+          "responsePercent": 93
+        },
+        {
+          "parallel": "2",
+          "score": 96.61,
+          "responsePercent": 96
+        }
+      ],
+      "sourceUrl": "https://saac.espol.edu.ec/heteroevaluacion-reportes/paralelos-materia/MATG1051/1/10"
+    },
+    {
+      "courseCode": "MATG1051",
+      "teacher": "AVILES MONROY JENNIFER ALEXIS",
+      "period": "2026-1S",
+      "sections": [
+        {
+          "parallel": "3",
+          "score": 87.7,
+          "responsePercent": 88
+        }
+      ],
+      "sourceUrl": "https://saac.espol.edu.ec/heteroevaluacion-reportes/paralelos-materia/MATG1051/1/10"
+    },
+    {
+      "courseCode": "MATG1051",
+      "teacher": "PINEDA MOGOLLON EBNER ALEXANDER",
+      "period": "2026-1S",
+      "sections": [
+        {
+          "parallel": "4",
+          "score": 92.23,
+          "responsePercent": 96
+        },
+        {
+          "parallel": "5",
+          "score": 91.97,
+          "responsePercent": 98
+        }
+      ],
+      "sourceUrl": "https://saac.espol.edu.ec/heteroevaluacion-reportes/paralelos-materia/MATG1051/1/10"
+    },
+    {
+      "courseCode": "CCPG1051",
+      "teacher": "LAVID CEDEÑO ERICK VICENTE",
+      "period": "2026-1S",
+      "sections": [
+        {
+          "parallel": "1",
+          "score": 95.64,
+          "responsePercent": 94
+        }
+      ],
+      "sourceUrl": "https://saac.espol.edu.ec/heteroevaluacion-reportes/paralelos-materia/CCPG1051/1/10"
+    },
+    {
+      "courseCode": "CCPG1051",
+      "teacher": "RIVADENEIRA CAMPODONICO RAFAEL EDUARDO",
+      "period": "2026-1S",
+      "sections": [
+        {
+          "parallel": "2",
+          "score": 98.97,
+          "responsePercent": 100
+        },
+        {
+          "parallel": "3",
+          "score": 98.12,
+          "responsePercent": 97
+        }
+      ],
+      "sourceUrl": "https://saac.espol.edu.ec/heteroevaluacion-reportes/paralelos-materia/CCPG1051/1/10"
+    },
+    {
+      "courseCode": "ESTG1034",
+      "teacher": "TENESACA TIMANÁ RÓMULO FERNANDO",
+      "period": "2026-1S",
+      "sections": [
+        {
+          "parallel": "1",
+          "score": 93.84,
+          "responsePercent": 95
+        },
+        {
+          "parallel": "8",
+          "score": 92.49,
+          "responsePercent": 100
+        }
+      ],
+      "sourceUrl": "https://saac.espol.edu.ec/heteroevaluacion-reportes/paralelos-materia/ESTG1034/1/10",
+      "sourcePages": [
+        "https://saac.espol.edu.ec/heteroevaluacion-reportes/paralelos-materia/ESTG1034/1/10",
+        "https://saac.espol.edu.ec/heteroevaluacion-reportes/paralelos-materia/ESTG1034/2/10"
       ]
+    },
+    {
+      "courseCode": "ESTG1034",
+      "teacher": "GOMEZ CANTOS ALICE VANESSA",
+      "period": "2026-1S",
+      "sections": [
+        {
+          "parallel": "10",
+          "score": 96.63,
+          "responsePercent": 100
+        },
+        {
+          "parallel": "11",
+          "score": 98.67,
+          "responsePercent": 97
+        },
+        {
+          "parallel": "9",
+          "score": 99.18,
+          "responsePercent": 98
+        }
+      ],
+      "sourceUrl": "https://saac.espol.edu.ec/heteroevaluacion-reportes/paralelos-materia/ESTG1034/1/10",
+      "sourcePages": [
+        "https://saac.espol.edu.ec/heteroevaluacion-reportes/paralelos-materia/ESTG1034/1/10",
+        "https://saac.espol.edu.ec/heteroevaluacion-reportes/paralelos-materia/ESTG1034/2/10"
+      ]
+    },
+    {
+      "courseCode": "ESTG1034",
+      "teacher": "BAUZ OLVERA SERGIO ALEX",
+      "period": "2026-1S",
+      "sections": [
+        {
+          "parallel": "12",
+          "score": 98.7,
+          "responsePercent": 88
+        }
+      ],
+      "sourceUrl": "https://saac.espol.edu.ec/heteroevaluacion-reportes/paralelos-materia/ESTG1034/1/10"
+    },
+    {
+      "courseCode": "ESTG1034",
+      "teacher": "ROA LOPEZ HEYDI MARIANA",
+      "period": "2026-1S",
+      "sections": [
+        {
+          "parallel": "2",
+          "score": 91.77,
+          "responsePercent": 98
+        }
+      ],
+      "sourceUrl": "https://saac.espol.edu.ec/heteroevaluacion-reportes/paralelos-materia/ESTG1034/1/10"
+    },
+    {
+      "courseCode": "ESTG1034",
+      "teacher": "PIVAQUE VILLACRESES GILMAR JOSÉ",
+      "period": "2026-1S",
+      "sections": [
+        {
+          "parallel": "3",
+          "score": 99.12,
+          "responsePercent": 98
+        },
+        {
+          "parallel": "4",
+          "score": 98.43,
+          "responsePercent": 100
+        }
+      ],
+      "sourceUrl": "https://saac.espol.edu.ec/heteroevaluacion-reportes/paralelos-materia/ESTG1034/1/10"
+    },
+    {
+      "courseCode": "ESTG1034",
+      "teacher": "CROW SANTOS PAMELA VANESSA",
+      "period": "2026-1S",
+      "sections": [
+        {
+          "parallel": "5",
+          "score": 83.53,
+          "responsePercent": 87
+        },
+        {
+          "parallel": "6",
+          "score": 86.17,
+          "responsePercent": 95
+        },
+        {
+          "parallel": "7",
+          "score": 89.66,
+          "responsePercent": 97
+        }
+      ],
+      "sourceUrl": "https://saac.espol.edu.ec/heteroevaluacion-reportes/paralelos-materia/ESTG1034/1/10"
     }
   ]
 }

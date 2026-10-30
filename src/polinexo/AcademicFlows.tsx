@@ -16,7 +16,7 @@ const names=(ids:string[])=>ids.map(id=>course(id)?.name||id).join(', ');
 const level=(n:number)=>['100-I','100-II','200-I','200-II','300-I','300-II','400-I','400-II'][n-1]||'Por confirmar';
 const careerMap:Record<string,{purpose:string;example:string;field:string;basis:string}>=careers;
 const available=cs.filter(c=>c.code&&c.credits!==null&&!c.conditions.length&&!student.approved.includes(c.id)&&!student.inProgress.includes(c.id)&&c.prerequisites.every(id=>student.approved.includes(id)));
-type Props={plan:string[];pref:Preferences;onApply:(ids:string[])=>void;onInspect:(id:string)=>void;onAsk:(q:string)=>void;onActivity:(v:'thinking'|'discovery'|'warning')=>void;onEdit:()=>void;onReview?:(ids:string[])=>void};
+type Props={plan:string[];pref:Preferences;onApply:(ids:string[])=>void;onInspect:(id:string)=>void;onAsk:(q:string)=>void;onActivity:(v:'thinking'|'discovery'|'warning')=>void;onEdit:()=>void;onDiscuss?:(ids:string[],q:string)=>void;onReview?:(ids:string[])=>void};
 
 function CourseSummary({id,onInspect,selected,children,explain=false}:{id:string;onInspect:(id:string)=>void;selected?:boolean;children?:React.ReactNode;explain?:boolean}){
  const c=course(id),career=careerMap[id];const stats=areaStats(cs,student).find(a=>a.name===area(c));const time=hours[id as keyof typeof hours];
@@ -77,19 +77,16 @@ export function ChooseFlow(p:Props){
 }
 
 export function ImproveFlow(p:Props){
- const [count,setCount]=useState(3);
- const stats=areaStats(cs,student),computing=stats.find(s=>s.name==='Computación')!,math=stats.find(s=>s.name==='Matemáticas y ciencias')!;
- const proposal=useMemo(()=>search(cs,student,{...p.pref,priority:'promedio',target:count===3?9:count===4?11:14,exactCredits:false,courseCount:count},hours).options[0],[count,p.pref]);
- return <div className="academic-flow improve-flow">
-  <header className="flow-heading"><h2>Más tiempo para hacerlo bien</h2><p>Elige una carga que te deje tiempo para estudiar.</p></header>
-  <section className="personal-reading"><div><ChartMark/><h3>Lo que muestra tu historial de ejemplo</h3></div><p>En computación has obtenido una media de <b>{computing.mean?.toFixed(2)}</b>; en matemáticas y ciencias, <b>{math.mean?.toFixed(2)}</b>. Conviene repartir el esfuerzo entre ambas áreas.</p></section>
-  <section className="effort-choice"><h3>¿Cuánto espacio quieres dejar para estudiar?</h3><div>{[{n:3,title:'Más margen',sub:'3 materias'},{n:4,title:'Ritmo medio',sub:'4 materias'},{n:5,title:'Más dedicación',sub:'5 materias'}].map(x=><button key={x.n} aria-pressed={count===x.n} onClick={()=>{setCount(x.n);p.onActivity('discovery')}}><strong>{x.title}</strong><small>{x.sub}</small></button>)}</div></section>
-  {proposal?<section className="improvement-proposal"><h3>Una combinación para ti</h3><div className="improvement-load"><strong>{proposal.credits} créditos</strong><span>{proposal.load.total} h/semana de clases y estudio como referencia</span></div><p className="improvement-why">Nexi: combina tus áreas de mejor rendimiento con materias que abren opciones después. No garantiza mejores notas.</p>{proposal.ids.map(id=><CourseSummary key={id} id={id} explain onInspect={p.onInspect}/>)}<button className="flow-primary" onClick={()=>p.onApply(proposal.ids)}>Elegir esta carga<Check size={16}/></button></section>:<p className="selection-guidance">No encontramos una combinación válida con esta cantidad.</p>}
-
-  <SourceNote/>
+ const stats=areaStats(cs,student).filter(a=>a.mean!==null).sort((a,b)=>(b.mean||0)-(a.mean||0));
+ const strongest=stats[0];
+ const proposal=useMemo(()=>search(cs,student,{...p.pref,priority:'promedio',target:9,exactCredits:false,courseCount:undefined},hours).options[0],[p.pref]);
+ return <div className="academic-flow improve-flow recommendation-story">
+  <header className="flow-heading"><h2>Mi recomendación para ti</h2><p>Para dedicar más tiempo a tus próximas notas.</p></header>
+  {proposal?<><section className="recommendation-voice"><span className="voice-signature">Nexi · Tu próximo PAO</span><p>Te recomiendo <b>{proposal.ids.length} materias</b>. Tus mejores resultados están en <b>{strongest?.name.toLowerCase()}</b>{strongest?.mean!=null?` (${strongest.mean.toFixed(2)})`:''}; esta selección se apoya en esa área y evita acumular más créditos de los necesarios.</p><div className="recommendation-measures"><span><b>{proposal.credits}</b> créditos</span><span><b>{proposal.load.total}</b> h/semana de referencia</span></div><small>Historial de ejemplo. Buscamos margen para estudiar; no es una predicción de notas.</small></section>
+  <section className="recommended-list" aria-label="Materias recomendadas">{proposal.ids.map((id,i)=><div className="recommended-subject" key={id}><span className="subject-number">{i+1}</span><button onClick={()=>p.onInspect(id)}><strong>{course(id).name}</strong><small>{course(id).credits} créditos · Ver materia y profesores</small></button><ArrowRight size={17}/></div>)}</section>
+  <div className="recommendation-actions"><button className="flow-primary" onClick={()=>p.onApply(proposal.ids)}>Elegir estas materias<Check size={16}/></button><button className="ask-recommendation" onClick={()=>p.onDiscuss?.(proposal.ids,'Explícame esta recomendación para mejorar mis notas: '+names(proposal.ids)+'. Usa mis resultados por áreas y carga. No inventes probabilidades.')}>Preguntarle a Nexi <Info size={16}/></button></div><details className="recommendation-method"><summary>Por qué estas materias</summary><p>Se revisaron requisitos, créditos y tu rendimiento por áreas. La selección suma entre 9 y 15 créditos; las horas son una referencia de sílabos. Los profesores disponibles y sus evaluaciones se consultan dentro de cada materia.</p></details></>:<p>No encontramos un plan válido con los requisitos conocidos.</p>}
  </div>;
 }
-function ChartMark(){return <span className="personal-mark">↗</span>}
 
 export function ImpactFlow(p:Props){
  const [scenarioPlan,setScenarioPlan]=useState([...p.plan]),[planDraft,setPlanDraft]=useState([...p.plan]),[editing,setEditing]=useState(false);const [scenarioMode,setScenarioMode]=useState<'postpone'|'fail'|'pass'>('postpone');const [scheduleEvidence,setScheduleEvidence]=useState('No se ingresaron horas de clase.'),[submittedSchedule,setSubmittedSchedule]=useState('');

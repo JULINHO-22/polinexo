@@ -1,0 +1,11 @@
+{
+  "source": "https://www.fiec.espol.edu.ec/sites/fiec.espol.edu.ec/files/ReglaTransicionComputacion2020.pdf",
+  "checked": "2026-10-30",
+  "scope": "Convalidaciones 2017 a 2020, solo para identificar antecedentes históricos; no transfiere estadísticas ni requisitos actuales.",
+  "mappings": {
+    "MATG1051": "MATG1005",
+    "CCPG1042": "CCPG1009",
+    "CCPG1034": "CCPG1006",
+    "TICG1018": "TICG1001"
+  }
+}
