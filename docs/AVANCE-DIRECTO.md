@@ -1,0 +1,2 @@
+# Lectura directa del avance
+La sección de futuros PAO presenta primero la selección y las materias que podría habilitar, sin selector de escenarios ni botón de análisis. La acción contextual ¿Y si la dejo? expone consecuencias verificadas y una sustitución calculada de 9–15 créditos. No aplica cambios sin confirmación. El ejemplo de recorrido queda en un detalle secundario; la revisión de horario se conserva aparte. El motor de escenarios sigue disponible para preguntas de Nexi y pruebas, sin convertirlas en un formulario inicial. No se afirma una fecha de graduación.
