@@ -10,6 +10,7 @@ createServer((req,res)=>api(req,res,async()=>{
  if(!['GET','HEAD'].includes(req.method)){res.writeHead(405);return res.end();}
  try{
   const pathname=decodeURIComponent(new URL(req.url,'http://localhost').pathname);
+  if(pathname.split('/').some(part=>part.startsWith('.'))){res.writeHead(404);return res.end();}
   let file=path.resolve(root,'.'+pathname);
   const relative=path.relative(root,file);
   if(relative.startsWith('..')||path.isAbsolute(relative)){res.writeHead(403);return res.end();}
