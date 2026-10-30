@@ -2,6 +2,14 @@
 
 Acompañamiento académico explicable para estudiantes de ESPOL. Evoluciona el proyecto existente: el estudiante plantea un objetivo, Gemma interpreta y consulta herramientas, el motor calcula y Nexi presenta propuestas que requieren confirmación.
 
+## Equipo
+
+**Club: IEEE Computer Society**
+
+- Mirka Valentina Velez Molina
+- Julinho Jesus Plua Mendosa
+- Andy Javier Cobeña Ponce
+
 ## Iniciar
 Node.js **24**. No se necesita base de datos.
 
@@ -70,3 +78,8 @@ Modelo exacto **gemma-4-26b-a4b-it**, mediante **Gemini API**, SDK @google/genai
 
 ### Revisión de recomendaciones y docentes
 Mejorar mi promedio presenta una sola propuesta y permite conversar sobre esa selección. La ficha separa Materia y Profesores. SAAC cubre una muestra de seis materias y PoliRecomienda una muestra de tres; no hay sincronización automática ni cobertura completa. Datos por código y periodo, sin convertir evaluaciones en probabilidades. Ver [revisión y fuentes](docs/REVISION-RECOMENDACION-UNICA.md).
+
+## Entrega y contribuciones
+[Guía de entrega y demo](docs/ENTREGA-HACKATHON.md). Contribuciones declaradas por el equipo: Julinho Jesus Plua Mendosa: código y diapositivas; Mirka Valentina Velez Molina: investigación y diapositivas; Andy Javier Cobeña Ponce: investigación y diapositivas. Antes del hackathon ya existía una base de código desarrollada por Julinho; no se presenta todo el código como creado durante el evento. Se utilizó Codex como asistente para investigación, implementación y revisión, y Gemma dentro del producto. El equipo debe poder explicar el código y sus decisiones.
+
+Tecnologías: React, TypeScript, Vite, Node.js 24, @google/genai y Gemma 4 mediante Gemini API. Modelo predeterminado: gemma-4-26b-a4b-it. Licencia MIT para código original; atribuciones y excepciones en THIRD_PARTY_NOTICES.md. Datos personales ficticios; evaluaciones docentes no equivalen a aprobación. No hay integración privada con Académico ESPOL.
