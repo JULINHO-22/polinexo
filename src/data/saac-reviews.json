@@ -1,7 +1,7 @@
 {
   "checked": "2026-10-30",
   "source": "https://saac.espol.edu.ec/heteroevaluacion-reportes/paralelos-materia/CCPG1034/1/10",
-  "coverage": "Consulta parcial: primera página; no representa a todos los docentes ni todos los periodos.",
+  "coverage": "Muestra parcial: Estructuras de datos y Sistema de bases de datos. Valores por docente y periodo; no cubre todo el histórico.",
   "records": [
     {
       "teacher": "COLLAGUAZO JARAMILLO ADRIANA ELISA",
@@ -41,6 +41,54 @@
           "parallel": "4",
           "score": 85.2,
           "responsePercent": 92
+        }
+      ]
+    },
+    {
+      "teacher": "CHEUNG RUIZ IRENE MEIYING",
+      "courseCode": "TICG1018",
+      "period": "2026-1S",
+      "sections": [
+        {
+          "parallel": "1",
+          "score": 88.2,
+          "responsePercent": 97
+        }
+      ]
+    },
+    {
+      "teacher": "MAGALLANES BORBOR JORGE ANTONIO",
+      "courseCode": "TICG1018",
+      "period": "2026-1S",
+      "sections": [
+        {
+          "parallel": "2",
+          "score": 95.62,
+          "responsePercent": 100
+        }
+      ]
+    },
+    {
+      "teacher": "MALO PINZA FRANK CARLOS",
+      "courseCode": "TICG1018",
+      "period": "2026-1S",
+      "sections": [
+        {
+          "parallel": "3",
+          "score": 89.5,
+          "responsePercent": 94
+        }
+      ]
+    },
+    {
+      "teacher": "SUAREZ RIOFRIO PATRICIA LEONOR",
+      "courseCode": "TICG1018",
+      "period": "2026-1S",
+      "sections": [
+        {
+          "parallel": "4",
+          "score": 93.64,
+          "responsePercent": 100
         }
       ]
     }
