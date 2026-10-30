@@ -1,0 +1,1046 @@
+{
+  "version": "CI013v3",
+  "versionStatus": "Malla enlazada por la página institucional; aplicabilidad por cohorte requiere confirmación",
+  "courses": [
+    {
+      "id": "MATG1045",
+      "code": "MATG1045",
+      "name": "Cálculo de una variable",
+      "level": 1,
+      "credits": 3,
+      "category": "Unidad básica",
+      "prerequisites": [],
+      "corequisites": [],
+      "conditions": [],
+      "verification": "verificado en malla publicada",
+      "source": "https://www.academico.espol.edu.ec/imgMallas/CI013v3.svg",
+      "creditSource": "https://www.fiec.espol.edu.ec/es/carreras-de-grado/computacion",
+      "rawSvgValue": "9",
+      "syllabus": "https://mallacurricular.espol.edu.ec/Malla/ReporteSyllabusEUR_ACE?idmateria=7048&carrera=236&idioma=spa",
+      "unlocks": [
+        "MATG1049",
+        "MATG1046"
+      ],
+      "conditionsStatus": "no additional annotation in published graph",
+      "syllabusPrerequisitesRaw": "No aplica",
+      "syllabusVerified": true
+    },
+    {
+      "id": "FISG1005",
+      "code": "FISG1005",
+      "name": "Física: mecánica",
+      "level": 1,
+      "credits": 3,
+      "category": "Unidad básica",
+      "prerequisites": [],
+      "corequisites": [
+        "MATG1045"
+      ],
+      "conditions": [],
+      "verification": "verificado en malla publicada",
+      "source": "https://www.academico.espol.edu.ec/imgMallas/CI013v3.svg",
+      "creditSource": "https://www.fiec.espol.edu.ec/es/carreras-de-grado/computacion",
+      "rawSvgValue": "9",
+      "syllabus": "https://mallacurricular.espol.edu.ec/Malla/ReporteSyllabusEUR_ACE?idmateria=7049&carrera=236&idioma=spa",
+      "unlocks": [],
+      "conditionsStatus": "no additional annotation in published graph",
+      "syllabusPrerequisitesRaw": "No aplica",
+      "syllabusVerified": true
+    },
+    {
+      "id": "INDG1033",
+      "code": "INDG1033",
+      "name": "Análisis y resolución de problemas",
+      "level": 1,
+      "credits": 3,
+      "category": "Unidad básica",
+      "prerequisites": [],
+      "corequisites": [],
+      "conditions": [],
+      "verification": "verificado en malla publicada",
+      "source": "https://www.academico.espol.edu.ec/imgMallas/CI013v3.svg",
+      "creditSource": "https://www.fiec.espol.edu.ec/es/carreras-de-grado/computacion",
+      "rawSvgValue": "9",
+      "syllabus": "https://mallacurricular.espol.edu.ec/Malla/ReporteSyllabusEUR_ACE?idmateria=6796&carrera=236&idioma=spa",
+      "unlocks": [
+        "CCPG1046"
+      ],
+      "conditionsStatus": "no additional annotation in published graph",
+      "syllabusPrerequisitesRaw": "No aplica",
+      "syllabusVerified": true
+    },
+    {
+      "id": "CCPG1043",
+      "code": "CCPG1043",
+      "name": "Fundamentos de programación",
+      "level": 1,
+      "credits": 3,
+      "category": "Unidad básica",
+      "prerequisites": [],
+      "corequisites": [],
+      "conditions": [],
+      "verification": "verificado en malla publicada",
+      "source": "https://www.academico.espol.edu.ec/imgMallas/CI013v3.svg",
+      "creditSource": "https://www.fiec.espol.edu.ec/es/carreras-de-grado/computacion",
+      "rawSvgValue": "9",
+      "syllabus": "https://mallacurricular.espol.edu.ec/Malla/ReporteSyllabusEUR_ACE?idmateria=6841&carrera=236&idioma=spa",
+      "unlocks": [
+        "CCPG1052",
+        "TICG1018",
+        "ESTG1034"
+      ],
+      "conditionsStatus": "no additional annotation in published graph",
+      "syllabusPrerequisitesRaw": "No aplica\nGuayaquil - Ecu ador\nCampus Gustavo Galindo Velasc o - Km. 30.5 Vía Perimetral - Pbx: (593 -4) 2269 269 \nwww .espo l .ed u.ec @espol @espol @espol1espol\nSílabo del Curso\nCCPG1043 - FUNDAMENTOS DE PROGRAMACIÓN\nEmitido por:\nCarrera: Computación\nPág. 1 de \n2 Emitido el: 10/29/2026 6:43:36 PM",
+      "syllabusVerified": true
+    },
+    {
+      "id": "slot-6",
+      "code": null,
+      "name": "Complementarias de artes, deportes e idiomas",
+      "level": 1,
+      "credits": null,
+      "category": "Componente curricular",
+      "prerequisites": [],
+      "corequisites": [],
+      "conditions": [],
+      "verification": "verificado en malla publicada",
+      "source": "https://www.academico.espol.edu.ec/imgMallas/CI013v3.svg",
+      "creditSource": null,
+      "rawSvgValue": "3",
+      "syllabus": null,
+      "unlocks": [],
+      "conditionsStatus": "no additional annotation in published graph"
+    },
+    {
+      "id": "IDIG1006",
+      "code": "IDIG1006",
+      "name": "Inglés i",
+      "level": 1,
+      "credits": 2,
+      "category": "Unidad básica",
+      "prerequisites": [],
+      "corequisites": [],
+      "conditions": [],
+      "verification": "verificado en malla publicada",
+      "source": "https://www.academico.espol.edu.ec/imgMallas/CI013v3.svg",
+      "creditSource": "https://www.fiec.espol.edu.ec/es/carreras-de-grado/computacion",
+      "rawSvgValue": "6",
+      "syllabus": "https://mallacurricular.espol.edu.ec/Malla/ReporteSyllabusEUR_ACE?idmateria=7463&carrera=236&idioma=spa",
+      "unlocks": [
+        "IDIG1007"
+      ],
+      "conditionsStatus": "no additional annotation in published graph",
+      "syllabusPrerequisitesRaw": "No aplica\nGuayaquil - Ecu ador\nCampus Gustavo Galindo Velasc o - Km. 30.5 Vía Perimetral - Pbx: (593 -4) 2269 269 \nwww .espo l .ed u.ec @espol @espol @espol1espol\nSílabo del Curso\nIDIG1006 - INGLÉS I\nEmitido por:\nCarrera: Computación\nPág. 1 de \n2 Emitido el: 10/29/2026 6:43:36 PM",
+      "syllabusVerified": true
+    },
+    {
+      "id": "MATG1049",
+      "code": "MATG1049",
+      "name": "Álgebra lineal",
+      "level": 2,
+      "credits": 3,
+      "category": "Unidad básica",
+      "prerequisites": [
+        "MATG1045"
+      ],
+      "corequisites": [],
+      "conditions": [],
+      "verification": "verificado en malla publicada",
+      "source": "https://www.academico.espol.edu.ec/imgMallas/CI013v3.svg",
+      "creditSource": "https://www.fiec.espol.edu.ec/es/carreras-de-grado/computacion",
+      "rawSvgValue": "9",
+      "syllabus": "https://mallacurricular.espol.edu.ec/Malla/ReporteSyllabusEUR_ACE?idmateria=7376&carrera=236&idioma=spa",
+      "unlocks": [],
+      "conditionsStatus": "no additional annotation in published graph",
+      "syllabusPrerequisitesRaw": "CÁLCULO DE UNA VARIABLE - MATG1045",
+      "syllabusVerified": true
+    },
+    {
+      "id": "MATG1046",
+      "code": "MATG1046",
+      "name": "Cálculo vectorial",
+      "level": 2,
+      "credits": 3,
+      "category": "Unidad básica",
+      "prerequisites": [
+        "MATG1045"
+      ],
+      "corequisites": [],
+      "conditions": [],
+      "verification": "verificado en malla publicada",
+      "source": "https://www.academico.espol.edu.ec/imgMallas/CI013v3.svg",
+      "creditSource": "https://www.fiec.espol.edu.ec/es/carreras-de-grado/computacion",
+      "rawSvgValue": "9",
+      "syllabus": "https://mallacurricular.espol.edu.ec/Malla/ReporteSyllabusEUR_ACE?idmateria=7054&carrera=236&idioma=spa",
+      "unlocks": [
+        "ESTG1034"
+      ],
+      "conditionsStatus": "no additional annotation in published graph",
+      "syllabusPrerequisitesRaw": "CÁLCULO DE UNA VARIABLE - MATG1045",
+      "syllabusVerified": true
+    },
+    {
+      "id": "CCPG1039",
+      "code": "CCPG1039",
+      "name": "Computación y sociedad",
+      "level": 2,
+      "credits": 2,
+      "category": "Unidad profesional",
+      "prerequisites": [],
+      "corequisites": [],
+      "conditions": [],
+      "verification": "verificado en malla publicada",
+      "source": "https://www.academico.espol.edu.ec/imgMallas/CI013v3.svg",
+      "creditSource": "https://www.fiec.espol.edu.ec/es/carreras-de-grado/computacion",
+      "rawSvgValue": "6",
+      "syllabus": "https://mallacurricular.espol.edu.ec/Malla/ReporteSyllabusEUR_ACE?idmateria=6815&carrera=236&idioma=spa",
+      "unlocks": [],
+      "conditionsStatus": "no additional annotation in published graph",
+      "syllabusPrerequisitesRaw": "No aplica",
+      "syllabusVerified": true
+    },
+    {
+      "id": "CCPG1052",
+      "code": "CCPG1052",
+      "name": "Programación orientada a objetos",
+      "level": 2,
+      "credits": 3,
+      "category": "Unidad profesional",
+      "prerequisites": [
+        "CCPG1043"
+      ],
+      "corequisites": [],
+      "conditions": [],
+      "verification": "verificado en malla publicada",
+      "source": "https://www.academico.espol.edu.ec/imgMallas/CI013v3.svg",
+      "creditSource": "https://www.fiec.espol.edu.ec/es/carreras-de-grado/computacion",
+      "rawSvgValue": "9",
+      "syllabus": "https://mallacurricular.espol.edu.ec/Malla/ReporteSyllabusEUR_ACE?idmateria=6874&carrera=236&idioma=spa",
+      "unlocks": [
+        "CCPG1034",
+        "CCPG1042",
+        "CCPG1051",
+        "CCPG1046"
+      ],
+      "conditionsStatus": "no additional annotation in published graph",
+      "syllabusPrerequisitesRaw": "FUNDAMENTOS DE PROGRAMACIÓN - CCPG1043",
+      "syllabusVerified": true
+    },
+    {
+      "id": "IDIG2012",
+      "code": "IDIG2012",
+      "name": "Comunicación",
+      "level": 2,
+      "credits": 2,
+      "category": "Unidad básica",
+      "prerequisites": [],
+      "corequisites": [],
+      "conditions": [
+        "6"
+      ],
+      "verification": "identidad y nivel verificados; condiciones numéricas pendientes",
+      "source": "https://www.academico.espol.edu.ec/imgMallas/CI013v3.svg",
+      "creditSource": "https://www.fiec.espol.edu.ec/es/carreras-de-grado/computacion",
+      "rawSvgValue": "6",
+      "syllabus": "https://mallacurricular.espol.edu.ec/Malla/ReporteSyllabusEUR_ACE?idmateria=7319&carrera=236&idioma=spa",
+      "unlocks": [],
+      "conditionsStatus": "pending",
+      "syllabusPrerequisitesRaw": "No aplica",
+      "syllabusVerified": true
+    },
+    {
+      "id": "IDIG1007",
+      "code": "IDIG1007",
+      "name": "Inglés ii",
+      "level": 2,
+      "credits": 2,
+      "category": "Unidad básica",
+      "prerequisites": [
+        "IDIG1006"
+      ],
+      "corequisites": [],
+      "conditions": [],
+      "verification": "verificado en malla publicada",
+      "source": "https://www.academico.espol.edu.ec/imgMallas/CI013v3.svg",
+      "creditSource": "https://www.fiec.espol.edu.ec/es/carreras-de-grado/computacion",
+      "rawSvgValue": "6",
+      "syllabus": "https://mallacurricular.espol.edu.ec/Malla/ReporteSyllabusEUR_ACE?idmateria=7464&carrera=236&idioma=spa",
+      "unlocks": [
+        "IDIG1008"
+      ],
+      "conditionsStatus": "no additional annotation in published graph",
+      "syllabusPrerequisitesRaw": "INGLÉS I - IDIG1006",
+      "syllabusVerified": true
+    },
+    {
+      "id": "EYAG1037",
+      "code": "EYAG1037",
+      "name": "Fundamentos de electricidad y sistemas digitales",
+      "level": 3,
+      "credits": 2,
+      "category": "Unidad básica",
+      "prerequisites": [],
+      "corequisites": [],
+      "conditions": [
+        "8"
+      ],
+      "verification": "identidad y nivel verificados; condiciones numéricas pendientes",
+      "source": "https://www.academico.espol.edu.ec/imgMallas/CI013v3.svg",
+      "creditSource": "https://www.fiec.espol.edu.ec/es/carreras-de-grado/computacion",
+      "rawSvgValue": "6",
+      "syllabus": "https://mallacurricular.espol.edu.ec/Malla/ReporteSyllabusEUR_ACE?idmateria=6840&carrera=236&idioma=spa",
+      "unlocks": [
+        "CCPG1049"
+      ],
+      "conditionsStatus": "pending",
+      "syllabusPrerequisitesRaw": "No aplica",
+      "syllabusVerified": true
+    },
+    {
+      "id": "MATG1051",
+      "code": "MATG1051",
+      "name": "Matemáticas discretas",
+      "level": 3,
+      "credits": 3,
+      "category": "Unidad básica",
+      "prerequisites": [],
+      "corequisites": [],
+      "conditions": [],
+      "verification": "verificado en malla publicada",
+      "source": "https://www.academico.espol.edu.ec/imgMallas/CI013v3.svg",
+      "creditSource": "https://www.fiec.espol.edu.ec/es/carreras-de-grado/computacion",
+      "rawSvgValue": "9",
+      "syllabus": "https://mallacurricular.espol.edu.ec/Malla/ReporteSyllabusEUR_ACE?idmateria=7378&carrera=236&idioma=spa",
+      "unlocks": [],
+      "conditionsStatus": "no additional annotation in published graph",
+      "syllabusPrerequisitesRaw": "No aplica",
+      "syllabusVerified": true
+    },
+    {
+      "id": "CCPG1034",
+      "code": "CCPG1034",
+      "name": "Estructuras de datos",
+      "level": 3,
+      "credits": 3,
+      "category": "Unidad profesional",
+      "prerequisites": [
+        "CCPG1052"
+      ],
+      "corequisites": [
+        "MATG1051"
+      ],
+      "conditions": [],
+      "verification": "verificado en malla publicada",
+      "source": "https://www.academico.espol.edu.ec/imgMallas/CI013v3.svg",
+      "creditSource": "https://www.fiec.espol.edu.ec/es/carreras-de-grado/computacion",
+      "rawSvgValue": "9",
+      "syllabus": "https://mallacurricular.espol.edu.ec/Malla/ReporteSyllabusEUR_ACE?idmateria=6798&carrera=236&idioma=spa",
+      "unlocks": [
+        "CCPG1036"
+      ],
+      "conditionsStatus": "no additional annotation in published graph",
+      "syllabusPrerequisitesRaw": "PROGRAMACIÓN ORIENTADA A OBJETOS - CCPG1052",
+      "syllabusVerified": true
+    },
+    {
+      "id": "CCPG1042",
+      "code": "CCPG1042",
+      "name": "Diseño de software",
+      "level": 3,
+      "credits": 2,
+      "category": "Unidad profesional",
+      "prerequisites": [
+        "CCPG1052"
+      ],
+      "corequisites": [
+        "TICG1018"
+      ],
+      "conditions": [],
+      "verification": "verificado en malla publicada",
+      "source": "https://www.academico.espol.edu.ec/imgMallas/CI013v3.svg",
+      "creditSource": "https://www.fiec.espol.edu.ec/es/carreras-de-grado/computacion",
+      "rawSvgValue": "6",
+      "syllabus": "https://mallacurricular.espol.edu.ec/Malla/ReporteSyllabusEUR_ACE?idmateria=6828&carrera=236&idioma=spa",
+      "unlocks": [
+        "SOFG1006",
+        "SOFG1007"
+      ],
+      "conditionsStatus": "no additional annotation in published graph",
+      "syllabusPrerequisitesRaw": "PROGRAMACIÓN ORIENTADA A OBJETOS - CCPG1052\nGuayaquil - Ecu ador\nCampus Gustavo Galindo Velasc o - Km. 30.5 Vía Perimetral - Pbx: (593 -4) 2269 269 \nwww .espo l .ed u.ec @espol @espol @espol1espol\nSílabo del Curso\nCCPG1042 - DISEÑO DE SOFTWARE\nEmitido por:\nCarrera: Computación\nPág. 1 de \n2 Emitido el: 10/29/2026 6:43:39 PM",
+      "syllabusVerified": true
+    },
+    {
+      "id": "TICG1018",
+      "code": "TICG1018",
+      "name": "Sistema de bases de datos",
+      "level": 3,
+      "credits": 3,
+      "category": "Unidad profesional",
+      "prerequisites": [
+        "CCPG1043"
+      ],
+      "corequisites": [],
+      "conditions": [],
+      "verification": "verificado en malla publicada",
+      "source": "https://www.academico.espol.edu.ec/imgMallas/CI013v3.svg",
+      "creditSource": "https://www.fiec.espol.edu.ec/es/carreras-de-grado/computacion",
+      "rawSvgValue": "9",
+      "syllabus": "https://mallacurricular.espol.edu.ec/Malla/ReporteSyllabusEUR_ACE?idmateria=6884&carrera=236&idioma=spa",
+      "unlocks": [],
+      "conditionsStatus": "no additional annotation in published graph",
+      "syllabusPrerequisitesRaw": "FUNDAMENTOS DE PROGRAMACIÓN - CCPG1043",
+      "syllabusVerified": true
+    },
+    {
+      "id": "IDIG1008",
+      "code": "IDIG1008",
+      "name": "Inglés iii",
+      "level": 3,
+      "credits": 2,
+      "category": "Unidad básica",
+      "prerequisites": [
+        "IDIG1007"
+      ],
+      "corequisites": [],
+      "conditions": [],
+      "verification": "verificado en malla publicada",
+      "source": "https://www.academico.espol.edu.ec/imgMallas/CI013v3.svg",
+      "creditSource": "https://www.fiec.espol.edu.ec/es/carreras-de-grado/computacion",
+      "rawSvgValue": "6",
+      "syllabus": "https://mallacurricular.espol.edu.ec/Malla/ReporteSyllabusEUR_ACE?idmateria=7465&carrera=236&idioma=spa",
+      "unlocks": [
+        "IDIG1009"
+      ],
+      "conditionsStatus": "no additional annotation in published graph",
+      "syllabusPrerequisitesRaw": "INGLÉS II - IDIG1007",
+      "syllabusVerified": true
+    },
+    {
+      "id": "CCPG1049",
+      "code": "CCPG1049",
+      "name": "Organización de computadores",
+      "level": 4,
+      "credits": 2,
+      "category": "Unidad profesional",
+      "prerequisites": [
+        "EYAG1037"
+      ],
+      "corequisites": [
+        "CCPG1051"
+      ],
+      "conditions": [],
+      "verification": "verificado en malla publicada",
+      "source": "https://www.academico.espol.edu.ec/imgMallas/CI013v3.svg",
+      "creditSource": "https://www.fiec.espol.edu.ec/es/carreras-de-grado/computacion",
+      "rawSvgValue": "6",
+      "syllabus": "https://mallacurricular.espol.edu.ec/Malla/ReporteSyllabusEUR_ACE?idmateria=6867&carrera=236&idioma=spa",
+      "unlocks": [
+        "CCPG1056"
+      ],
+      "conditionsStatus": "no additional annotation in published graph",
+      "syllabusPrerequisitesRaw": "FUNDAMENTOS DE ELECTRICIDAD Y SISTEMAS DIGITALES - EYAG1037",
+      "syllabusVerified": true
+    },
+    {
+      "id": "CCPG1051",
+      "code": "CCPG1051",
+      "name": "Programación de sistemas",
+      "level": 4,
+      "credits": 3,
+      "category": "Unidad profesional",
+      "prerequisites": [
+        "CCPG1052"
+      ],
+      "corequisites": [],
+      "conditions": [],
+      "verification": "verificado en malla publicada",
+      "source": "https://www.academico.espol.edu.ec/imgMallas/CI013v3.svg",
+      "creditSource": "https://www.fiec.espol.edu.ec/es/carreras-de-grado/computacion",
+      "rawSvgValue": "9",
+      "syllabus": "https://mallacurricular.espol.edu.ec/Malla/ReporteSyllabusEUR_ACE?idmateria=6873&carrera=236&idioma=spa",
+      "unlocks": [
+        "CCPG1053",
+        "CCPG1055"
+      ],
+      "conditionsStatus": "no additional annotation in published graph",
+      "syllabusPrerequisitesRaw": "PROGRAMACIÓN ORIENTADA A OBJETOS - CCPG1052",
+      "syllabusVerified": true
+    },
+    {
+      "id": "ESTG1034",
+      "code": "ESTG1034",
+      "name": "Estadística",
+      "level": 4,
+      "credits": 3,
+      "category": "Unidad básica",
+      "prerequisites": [
+        "CCPG1043",
+        "MATG1046"
+      ],
+      "corequisites": [],
+      "conditions": [],
+      "verification": "verificado en malla publicada",
+      "source": "https://www.academico.espol.edu.ec/imgMallas/CI013v3.svg",
+      "creditSource": "https://www.fiec.espol.edu.ec/es/carreras-de-grado/computacion",
+      "rawSvgValue": "9",
+      "syllabus": "https://mallacurricular.espol.edu.ec/Malla/ReporteSyllabusEUR_ACE?idmateria=7351&carrera=236&idioma=spa",
+      "unlocks": [
+        "CCPG1048",
+        "CCPG1044"
+      ],
+      "conditionsStatus": "no additional annotation in published graph",
+      "syllabusPrerequisitesRaw": "FUNDAMENTOS DE PROGRAMACIÓN - CCPG1043\n       CÁLCULO VECTORIAL - MATG1046",
+      "syllabusVerified": true
+    },
+    {
+      "id": "CCPG1046",
+      "code": "CCPG1046",
+      "name": "Interacción humano computador",
+      "level": 4,
+      "credits": 2,
+      "category": "Unidad profesional",
+      "prerequisites": [
+        "INDG1033",
+        "CCPG1052"
+      ],
+      "corequisites": [],
+      "conditions": [],
+      "verification": "verificado en malla publicada",
+      "source": "https://www.academico.espol.edu.ec/imgMallas/CI013v3.svg",
+      "creditSource": "https://www.fiec.espol.edu.ec/es/carreras-de-grado/computacion",
+      "rawSvgValue": "6",
+      "syllabus": "https://mallacurricular.espol.edu.ec/Malla/ReporteSyllabusEUR_ACE?idmateria=6851&carrera=236&idioma=spa",
+      "unlocks": [
+        "SOFG1007"
+      ],
+      "conditionsStatus": "no additional annotation in published graph",
+      "syllabusPrerequisitesRaw": "ANÁLISIS Y RESOLUCIÓN DE PROBLEMAS - INDG1033\n       PROGRAMACIÓN ORIENTADA A OBJETOS - CCPG1052",
+      "syllabusVerified": true
+    },
+    {
+      "id": "TLMG1032",
+      "code": "TLMG1032",
+      "name": "Redes de datos",
+      "level": 4,
+      "credits": 3,
+      "category": "Unidad profesional",
+      "prerequisites": [],
+      "corequisites": [],
+      "conditions": [
+        "14"
+      ],
+      "verification": "identidad y nivel verificados; condiciones numéricas pendientes",
+      "source": "https://www.academico.espol.edu.ec/imgMallas/CI013v3.svg",
+      "creditSource": "https://www.fiec.espol.edu.ec/es/carreras-de-grado/computacion",
+      "rawSvgValue": "9",
+      "syllabus": "https://mallacurricular.espol.edu.ec/Malla/ReporteSyllabusEUR_ACE?idmateria=6877&carrera=236&idioma=spa",
+      "unlocks": [
+        "CCPG1055"
+      ],
+      "conditionsStatus": "pending",
+      "syllabusPrerequisitesRaw": "No aplica",
+      "syllabusVerified": true
+    },
+    {
+      "id": "IDIG1009",
+      "code": "IDIG1009",
+      "name": "Inglés iv",
+      "level": 4,
+      "credits": 2,
+      "category": "Unidad básica",
+      "prerequisites": [
+        "IDIG1008"
+      ],
+      "corequisites": [],
+      "conditions": [],
+      "verification": "verificado en malla publicada",
+      "source": "https://www.academico.espol.edu.ec/imgMallas/CI013v3.svg",
+      "creditSource": "https://www.fiec.espol.edu.ec/es/carreras-de-grado/computacion",
+      "rawSvgValue": "6",
+      "syllabus": "https://mallacurricular.espol.edu.ec/Malla/ReporteSyllabusEUR_ACE?idmateria=7466&carrera=236&idioma=spa",
+      "unlocks": [
+        "IDIG1010"
+      ],
+      "conditionsStatus": "no additional annotation in published graph",
+      "syllabusPrerequisitesRaw": "INGLÉS III - IDIG1008",
+      "syllabusVerified": true
+    },
+    {
+      "id": "CCPG1056",
+      "code": "CCPG1056",
+      "name": "Sistemas operativos",
+      "level": 5,
+      "credits": 3,
+      "category": "Unidad profesional",
+      "prerequisites": [
+        "CCPG1049"
+      ],
+      "corequisites": [],
+      "conditions": [],
+      "verification": "verificado en malla publicada",
+      "source": "https://www.academico.espol.edu.ec/imgMallas/CI013v3.svg",
+      "creditSource": "https://www.fiec.espol.edu.ec/es/carreras-de-grado/computacion",
+      "rawSvgValue": "9",
+      "syllabus": "https://mallacurricular.espol.edu.ec/Malla/ReporteSyllabusEUR_ACE?idmateria=6897&carrera=236&idioma=spa",
+      "unlocks": [],
+      "conditionsStatus": "no additional annotation in published graph",
+      "syllabusPrerequisitesRaw": "ORGANIZACIÓN DE COMPUTADORES - CCPG1049",
+      "syllabusVerified": true
+    },
+    {
+      "id": "CCPG1036",
+      "code": "CCPG1036",
+      "name": "Análisis de algoritmos",
+      "level": 5,
+      "credits": 2,
+      "category": "Unidad profesional",
+      "prerequisites": [
+        "CCPG1034"
+      ],
+      "corequisites": [],
+      "conditions": [],
+      "verification": "verificado en malla publicada",
+      "source": "https://www.academico.espol.edu.ec/imgMallas/CI013v3.svg",
+      "creditSource": "https://www.fiec.espol.edu.ec/es/carreras-de-grado/computacion",
+      "rawSvgValue": "6",
+      "syllabus": "https://mallacurricular.espol.edu.ec/Malla/ReporteSyllabusEUR_ACE?idmateria=6803&carrera=236&idioma=spa",
+      "unlocks": [],
+      "conditionsStatus": "no additional annotation in published graph",
+      "syllabusPrerequisitesRaw": "ESTRUCTURAS DE DATOS - CCPG1034",
+      "syllabusVerified": true
+    },
+    {
+      "id": "SOFG1006",
+      "code": "SOFG1006",
+      "name": "Desarrollo de aplicaciones web y móviles",
+      "level": 5,
+      "credits": 3,
+      "category": "Unidad profesional",
+      "prerequisites": [
+        "CCPG1042"
+      ],
+      "corequisites": [],
+      "conditions": [],
+      "verification": "verificado en malla publicada",
+      "source": "https://www.academico.espol.edu.ec/imgMallas/CI013v3.svg",
+      "creditSource": "https://www.fiec.espol.edu.ec/es/carreras-de-grado/computacion",
+      "rawSvgValue": "9",
+      "syllabus": "https://mallacurricular.espol.edu.ec/Malla/ReporteSyllabusEUR_ACE?idmateria=6822&carrera=236&idioma=spa",
+      "unlocks": [],
+      "conditionsStatus": "no additional annotation in published graph",
+      "syllabusPrerequisitesRaw": "DISEÑO DE SOFTWARE - CCPG1042",
+      "syllabusVerified": true
+    },
+    {
+      "id": "SOFG1007",
+      "code": "SOFG1007",
+      "name": "Ingeniería de software i",
+      "level": 5,
+      "credits": 2,
+      "category": "Unidad profesional",
+      "prerequisites": [
+        "CCPG1042",
+        "CCPG1046"
+      ],
+      "corequisites": [
+        "SOFG1006"
+      ],
+      "conditions": [],
+      "verification": "verificado en malla publicada",
+      "source": "https://www.academico.espol.edu.ec/imgMallas/CI013v3.svg",
+      "creditSource": "https://www.fiec.espol.edu.ec/es/carreras-de-grado/computacion",
+      "rawSvgValue": "6",
+      "syllabus": "https://mallacurricular.espol.edu.ec/Malla/ReporteSyllabusEUR_ACE?idmateria=6845&carrera=236&idioma=spa",
+      "unlocks": [
+        "SOFG1008"
+      ],
+      "conditionsStatus": "no additional annotation in published graph",
+      "syllabusPrerequisitesRaw": "DISEÑO DE SOFTWARE - CCPG1042\n       INTERACCIÓN HUMANO COMPUTADOR - CCPG1046",
+      "syllabusVerified": true
+    },
+    {
+      "id": "ADMG1005",
+      "code": "ADMG1005",
+      "name": "Emprendimiento e innovación",
+      "level": 5,
+      "credits": 3,
+      "category": "Unidad básica",
+      "prerequisites": [],
+      "corequisites": [],
+      "conditions": [
+        "20"
+      ],
+      "verification": "identidad y nivel verificados; condiciones numéricas pendientes",
+      "source": "https://www.academico.espol.edu.ec/imgMallas/CI013v3.svg",
+      "creditSource": "https://www.fiec.espol.edu.ec/es/carreras-de-grado/computacion",
+      "rawSvgValue": "9",
+      "syllabus": "https://mallacurricular.espol.edu.ec/Malla/ReporteSyllabusEUR_ACE?idmateria=6797&carrera=236&idioma=spa",
+      "unlocks": [
+        "CCPG1041"
+      ],
+      "conditionsStatus": "pending",
+      "syllabusPrerequisitesRaw": "No aplica",
+      "syllabusVerified": true
+    },
+    {
+      "id": "IDIG1010",
+      "code": "IDIG1010",
+      "name": "Inglés v",
+      "level": 5,
+      "credits": 2,
+      "category": "Unidad básica",
+      "prerequisites": [
+        "IDIG1009"
+      ],
+      "corequisites": [],
+      "conditions": [],
+      "verification": "verificado en malla publicada",
+      "source": "https://www.academico.espol.edu.ec/imgMallas/CI013v3.svg",
+      "creditSource": "https://www.fiec.espol.edu.ec/es/carreras-de-grado/computacion",
+      "rawSvgValue": "6",
+      "syllabus": "https://mallacurricular.espol.edu.ec/Malla/ReporteSyllabusEUR_ACE?idmateria=7467&carrera=236&idioma=spa",
+      "unlocks": [],
+      "conditionsStatus": "no additional annotation in published graph",
+      "syllabusPrerequisitesRaw": "Guayaquil - Ecu ador\nCampus Gustavo Galindo Velasc o - Km. 30.5 Vía Perimetral - Pbx: (593 -4) 2269 269 \nwww .espo l .ed u.ec @espol @espol @espol1espol\nSílabo del Curso\nIDIG1010 - INGLÉS V\nEmitido por:\nCarrera: Computación\nPág. 1 de \n2 Emitido el: 10/29/2026 6:43:41 PM\n       INGLÉS IV - IDIG1009",
+      "syllabusVerified": true
+    },
+    {
+      "id": "CCPG1053",
+      "code": "CCPG1053",
+      "name": "Seguridad de la información",
+      "level": 6,
+      "credits": 2,
+      "category": "Unidad profesional",
+      "prerequisites": [
+        "CCPG1051"
+      ],
+      "corequisites": [],
+      "conditions": [],
+      "verification": "verificado en malla publicada",
+      "source": "https://www.academico.espol.edu.ec/imgMallas/CI013v3.svg",
+      "creditSource": "https://www.fiec.espol.edu.ec/es/carreras-de-grado/computacion",
+      "rawSvgValue": "6",
+      "syllabus": "https://mallacurricular.espol.edu.ec/Malla/ReporteSyllabusEUR_ACE?idmateria=6882&carrera=236&idioma=spa",
+      "unlocks": [],
+      "conditionsStatus": "no additional annotation in published graph",
+      "syllabusPrerequisitesRaw": "PROGRAMACIÓN DE SISTEMAS - CCPG1051",
+      "syllabusVerified": true
+    },
+    {
+      "id": "CCPG1048",
+      "code": "CCPG1048",
+      "name": "Metodología de la investigación en computación",
+      "level": 6,
+      "credits": 2,
+      "category": "Unidad profesional",
+      "prerequisites": [
+        "ESTG1034"
+      ],
+      "corequisites": [],
+      "conditions": [],
+      "verification": "verificado en malla publicada",
+      "source": "https://www.academico.espol.edu.ec/imgMallas/CI013v3.svg",
+      "creditSource": "https://www.fiec.espol.edu.ec/es/carreras-de-grado/computacion",
+      "rawSvgValue": "6",
+      "syllabus": "https://mallacurricular.espol.edu.ec/Malla/ReporteSyllabusEUR_ACE?idmateria=6863&carrera=236&idioma=spa",
+      "unlocks": [],
+      "conditionsStatus": "no additional annotation in published graph",
+      "syllabusPrerequisitesRaw": "ESTADÍSTICA - ESTG1034",
+      "syllabusVerified": true
+    },
+    {
+      "id": "SOFG1009",
+      "code": "SOFG1009",
+      "name": "Lenguajes de programación",
+      "level": 6,
+      "credits": 3,
+      "category": "Unidad profesional",
+      "prerequisites": [],
+      "corequisites": [],
+      "conditions": [
+        "20"
+      ],
+      "verification": "identidad y nivel verificados; condiciones numéricas pendientes",
+      "source": "https://www.academico.espol.edu.ec/imgMallas/CI013v3.svg",
+      "creditSource": "https://www.fiec.espol.edu.ec/es/carreras-de-grado/computacion",
+      "rawSvgValue": "9",
+      "syllabus": "https://mallacurricular.espol.edu.ec/Malla/ReporteSyllabusEUR_ACE?idmateria=6855&carrera=236&idioma=spa",
+      "unlocks": [
+        "CCPG1044"
+      ],
+      "conditionsStatus": "pending",
+      "syllabusPrerequisitesRaw": "No aplica",
+      "syllabusVerified": true
+    },
+    {
+      "id": "SOFG1008",
+      "code": "SOFG1008",
+      "name": "Ingeniería de software ii",
+      "level": 6,
+      "credits": 3,
+      "category": "Unidad profesional",
+      "prerequisites": [
+        "SOFG1007"
+      ],
+      "corequisites": [],
+      "conditions": [],
+      "verification": "verificado en malla publicada",
+      "source": "https://www.academico.espol.edu.ec/imgMallas/CI013v3.svg",
+      "creditSource": "https://www.fiec.espol.edu.ec/es/carreras-de-grado/computacion",
+      "rawSvgValue": "9",
+      "syllabus": "https://mallacurricular.espol.edu.ec/Malla/ReporteSyllabusEUR_ACE?idmateria=6846&carrera=236&idioma=spa",
+      "unlocks": [],
+      "conditionsStatus": "no additional annotation in published graph",
+      "syllabusPrerequisitesRaw": "Guayaquil - Ecu ador\nCampus Gustavo Galindo Velasc o - Km. 30.5 Vía Perimetral - Pbx: (593 -4) 2269 269 \nwww .espo l .ed u.ec @espol @espol @espol1espol\nSílabo del Curso\nSOFG1008 - INGENIERÍA DE SOFTWARE II\nEmitido por:\nCarrera: Computación\nPág. 1 de \n2 Emitido el: 10/29/2026 6:43:41 PM\n       INGENIERÍA DE SOFTWARE I - SOFG1007",
+      "syllabusVerified": true
+    },
+    {
+      "id": "ADSG1026",
+      "code": "ADSG1026",
+      "name": "Ciencias de la sostenibilidad",
+      "level": 6,
+      "credits": 3,
+      "category": "Unidad básica",
+      "prerequisites": [],
+      "corequisites": [],
+      "conditions": [
+        "20"
+      ],
+      "verification": "identidad y nivel verificados; condiciones numéricas pendientes",
+      "source": "https://www.academico.espol.edu.ec/imgMallas/CI013v3.svg",
+      "creditSource": "https://www.fiec.espol.edu.ec/es/carreras-de-grado/computacion",
+      "rawSvgValue": "9",
+      "syllabus": "https://mallacurricular.espol.edu.ec/Malla/ReporteSyllabusEUR_ACE?idmateria=7512&carrera=236&idioma=spa",
+      "unlocks": [],
+      "conditionsStatus": "pending",
+      "syllabusPrerequisitesRaw": "No aplica",
+      "syllabusVerified": true
+    },
+    {
+      "id": "slot-47",
+      "code": null,
+      "name": "Prácticas de servicio comunitario",
+      "level": 6,
+      "credits": 2,
+      "category": "Componente curricular",
+      "prerequisites": [],
+      "corequisites": [],
+      "conditions": [],
+      "verification": "verificado en malla publicada",
+      "source": "https://www.academico.espol.edu.ec/imgMallas/CI013v3.svg",
+      "creditSource": "https://www.fiec.espol.edu.ec/es/carreras-de-grado/computacion",
+      "rawSvgValue": "6",
+      "syllabus": null,
+      "unlocks": [],
+      "conditionsStatus": "no additional annotation in published graph"
+    },
+    {
+      "id": "slot-60",
+      "code": null,
+      "name": "Complementarias de humanisticas",
+      "level": 8,
+      "credits": null,
+      "category": "Componente curricular",
+      "prerequisites": [],
+      "corequisites": [],
+      "conditions": [],
+      "verification": "verificado en malla publicada",
+      "source": "https://www.academico.espol.edu.ec/imgMallas/CI013v3.svg",
+      "creditSource": null,
+      "rawSvgValue": "3",
+      "syllabus": null,
+      "unlocks": [],
+      "conditionsStatus": "no additional annotation in published graph"
+    },
+    {
+      "id": "CCPG1035",
+      "code": "CCPG1035",
+      "name": "Materia integradora de computación",
+      "level": 8,
+      "credits": 3,
+      "category": "Integración curricular",
+      "prerequisites": [],
+      "corequisites": [],
+      "conditions": [
+        "39"
+      ],
+      "verification": "identidad y nivel verificados; condiciones numéricas pendientes",
+      "source": "https://www.academico.espol.edu.ec/imgMallas/CI013v3.svg",
+      "creditSource": "https://www.fiec.espol.edu.ec/es/carreras-de-grado/computacion",
+      "rawSvgValue": "9",
+      "syllabus": "https://mallacurricular.espol.edu.ec/Malla/ReporteSyllabusEUR_ACE?idmateria=6800&carrera=236&idioma=spa",
+      "unlocks": [],
+      "conditionsStatus": "pending",
+      "syllabusPrerequisitesRaw": "No aplica",
+      "syllabusVerified": true
+    },
+    {
+      "id": "slot-63",
+      "code": null,
+      "name": "Itinerario",
+      "level": 8,
+      "credits": null,
+      "category": "Componente curricular",
+      "prerequisites": [],
+      "corequisites": [],
+      "conditions": [],
+      "verification": "verificado en malla publicada",
+      "source": "https://www.academico.espol.edu.ec/imgMallas/CI013v3.svg",
+      "creditSource": null,
+      "rawSvgValue": "9",
+      "syllabus": null,
+      "unlocks": [],
+      "conditionsStatus": "no additional annotation in published graph"
+    },
+    {
+      "id": "slot-71",
+      "code": null,
+      "name": "Prácticas preprofesionales empresariales",
+      "level": 8,
+      "credits": 5,
+      "category": "Componente curricular",
+      "prerequisites": [],
+      "corequisites": [],
+      "conditions": [],
+      "verification": "verificado en malla publicada",
+      "source": "https://www.academico.espol.edu.ec/imgMallas/CI013v3.svg",
+      "creditSource": "https://www.fiec.espol.edu.ec/es/carreras-de-grado/computacion",
+      "rawSvgValue": "5",
+      "syllabus": null,
+      "unlocks": [],
+      "conditionsStatus": "no additional annotation in published graph"
+    },
+    {
+      "id": "CCPG1044",
+      "code": "CCPG1044",
+      "name": "Inteligencia artificial",
+      "level": 7,
+      "credits": 3,
+      "category": "Unidad profesional",
+      "prerequisites": [
+        "SOFG1009",
+        "ESTG1034"
+      ],
+      "corequisites": [],
+      "conditions": [],
+      "verification": "verificado en malla publicada",
+      "source": "https://www.academico.espol.edu.ec/imgMallas/CI013v3.svg",
+      "creditSource": "https://www.fiec.espol.edu.ec/es/carreras-de-grado/computacion",
+      "rawSvgValue": "9",
+      "syllabus": "https://mallacurricular.espol.edu.ec/Malla/ReporteSyllabusEUR_ACE?idmateria=6849&carrera=236&idioma=spa",
+      "unlocks": [],
+      "conditionsStatus": "no additional annotation in published graph",
+      "syllabusPrerequisitesRaw": "LENGUAJES DE PROGRAMACIÓN - SOFG1009\n       ESTADÍSTICA - ESTG1034",
+      "syllabusVerified": true
+    },
+    {
+      "id": "CCPG1054",
+      "code": "CCPG1054",
+      "name": "Sistemas de información",
+      "level": 7,
+      "credits": 2,
+      "category": "Unidad profesional",
+      "prerequisites": [],
+      "corequisites": [],
+      "conditions": [
+        "30"
+      ],
+      "verification": "identidad y nivel verificados; condiciones numéricas pendientes",
+      "source": "https://www.academico.espol.edu.ec/imgMallas/CI013v3.svg",
+      "creditSource": "https://www.fiec.espol.edu.ec/es/carreras-de-grado/computacion",
+      "rawSvgValue": "6",
+      "syllabus": "https://mallacurricular.espol.edu.ec/Malla/ReporteSyllabusEUR_ACE?idmateria=6888&carrera=236&idioma=spa",
+      "unlocks": [],
+      "conditionsStatus": "pending",
+      "syllabusPrerequisitesRaw": "No aplica",
+      "syllabusVerified": true
+    },
+    {
+      "id": "CCPG1055",
+      "code": "CCPG1055",
+      "name": "Sistemas distribuidos y computación en la nube",
+      "level": 7,
+      "credits": 3,
+      "category": "Unidad profesional",
+      "prerequisites": [
+        "CCPG1051",
+        "TLMG1032"
+      ],
+      "corequisites": [],
+      "conditions": [],
+      "verification": "verificado en malla publicada",
+      "source": "https://www.academico.espol.edu.ec/imgMallas/CI013v3.svg",
+      "creditSource": "https://www.fiec.espol.edu.ec/es/carreras-de-grado/computacion",
+      "rawSvgValue": "9",
+      "syllabus": "https://mallacurricular.espol.edu.ec/Malla/ReporteSyllabusEUR_ACE?idmateria=6894&carrera=236&idioma=spa",
+      "unlocks": [],
+      "conditionsStatus": "no additional annotation in published graph",
+      "syllabusPrerequisitesRaw": "PROGRAMACIÓN DE SISTEMAS - CCPG1051\n       REDES DE DATOS - TLMG1032",
+      "syllabusVerified": true
+    },
+    {
+      "id": "CCPG1041",
+      "code": "CCPG1041",
+      "name": "Dirección de proyectos informáticos",
+      "level": 7,
+      "credits": 2,
+      "category": "Unidad profesional",
+      "prerequisites": [
+        "ADMG1005"
+      ],
+      "corequisites": [],
+      "conditions": [],
+      "verification": "verificado en malla publicada",
+      "source": "https://www.academico.espol.edu.ec/imgMallas/CI013v3.svg",
+      "creditSource": "https://www.fiec.espol.edu.ec/es/carreras-de-grado/computacion",
+      "rawSvgValue": "6",
+      "syllabus": "https://mallacurricular.espol.edu.ec/Malla/ReporteSyllabusEUR_ACE?idmateria=6825&carrera=236&idioma=spa",
+      "unlocks": [],
+      "conditionsStatus": "no additional annotation in published graph",
+      "syllabusPrerequisitesRaw": "EMPRENDIMIENTO E INNOVACIÓN - ADMG1005",
+      "syllabusVerified": true
+    },
+    {
+      "id": "slot-55",
+      "code": null,
+      "name": "Itinerario",
+      "level": 7,
+      "credits": null,
+      "category": "Componente curricular",
+      "prerequisites": [],
+      "corequisites": [],
+      "conditions": [],
+      "verification": "verificado en malla publicada",
+      "source": "https://www.academico.espol.edu.ec/imgMallas/CI013v3.svg",
+      "creditSource": null,
+      "rawSvgValue": "9",
+      "syllabus": null,
+      "unlocks": [],
+      "conditionsStatus": "no additional annotation in published graph"
+    },
+    {
+      "id": "project-integrator",
+      "code": null,
+      "name": "Proyecto integrador",
+      "level": 8,
+      "credits": 5,
+      "category": "Integración curricular",
+      "prerequisites": [],
+      "corequisites": [],
+      "conditions": [
+        "Requisitos específicos pendientes"
+      ],
+      "verification": "Componente y créditos publicados en FIEC; código, nivel y requisitos específicos pendientes",
+      "source": "https://www.fiec.espol.edu.ec/es/carreras-de-grado/computacion",
+      "creditSource": "https://www.fiec.espol.edu.ec/es/carreras-de-grado/computacion",
+      "rawSvgValue": null,
+      "syllabus": null,
+      "unlocks": [],
+      "conditionsStatus": "pending",
+      "syllabusVerified": false,
+      "syllabusPrerequisitesRaw": null
+    }
+  ],
+  "totalCredits": 120,
+  "totalCreditsStatus": "Publicado por FIEC en Requisitos de Graduación; debe confirmarse aplicabilidad por cohorte."
+}

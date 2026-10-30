@@ -1,0 +1,6 @@
+import fs from 'node:fs';
+const base=process.env.POLINEXO_URL||'http://127.0.0.1:5174';const health=await fetch(base+'/api/health').then(r=>r.json());
+if(!health.configured){console.log('SKIP: falta clave; no se ha probado una conversación real con Gemma.');process.exit(0);}
+const baseReq={plan:['CCPG1034','MATG1051','TICG1018','IDIG1008'],focus:'CCPG1034',pref:{target:11,hours:36,priority:'equilibrar',pace:'equilibrada'},failed:[],grades:{},history:[]};const evidence=[];
+for(const message of ['Quiero tomar exactamente 12 créditos y cuatro materias. ¿Qué me conviene?','¿Qué pasa si pospongo Estructuras de datos de mi plan?','Quiero mejorar mi promedio. Si saco 9 en las materias del plan, ¿cómo cambiaría la media ilustrativa?']){const r=await fetch(base+'/api/chat',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({...baseReq,message})});const out=await r.json();if(!r.ok||out.mode!=='gemma')throw Error('LIVE_CHECK_FAILED: '+(out.code||r.status));evidence.push({model:out.model,modelVersion:out.modelVersion,trace:out.trace,proposal:out.proposal,at:new Date().toISOString()});}
+fs.mkdirSync('research/gemma',{recursive:true});fs.writeFileSync('research/gemma/live-e2e.json',JSON.stringify(evidence,null,2));console.log('Tres conversaciones reales con Gemma verificadas. Evidencia sin claves guardada.');

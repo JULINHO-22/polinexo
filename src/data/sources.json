@@ -1,0 +1,44 @@
+[
+  {
+    "id": "fiec",
+    "url": "https://www.fiec.espol.edu.ec/es/carreras-de-grado/computacion",
+    "consulted": "2026-10-29",
+    "scope": "Identidad, créditos, graduación; resolución RPC-SE-09-NO.086-2020"
+  },
+  {
+    "id": "malla",
+    "url": "https://mallacurricular.espol.edu.ec/Malla/Imagen?codCarrera=CI013",
+    "consulted": "2026-10-29",
+    "scope": "Enlaza SVG CI013v3; no prueba cohorte de aplicación"
+  },
+  {
+    "id": "graph",
+    "url": "https://www.academico.espol.edu.ec/imgMallas/CI013v3.svg",
+    "consulted": "2026-10-29",
+    "scope": "45 casilleros y aristas PR/CO"
+  },
+  {
+    "id": "faq-fiec",
+    "url": "https://www.fiec.espol.edu.ec/archive/es/node/1816",
+    "consulted": "2026-10-29",
+    "scope": "Archivo con referencias a 2022; histórico"
+  },
+  {
+    "id": "faq-fcsh",
+    "url": "https://www.fcsh.espol.edu.ec/es/preguntas-frecuentes",
+    "consulted": "2026-10-29",
+    "scope": "Guía de otra facultad publicada 2026; confirmar aplicabilidad"
+  },
+  {
+    "id": "icora",
+    "url": "https://www.cti.espol.edu.ec/es/CCSH%20ICora",
+    "consulted": "2026-10-29",
+    "scope": "Antecedente de predicción de rangos de notas"
+  },
+  {
+    "id": "lineamientos",
+    "url": "https://dspace.espol.edu.ec/bitstream/123456789/49536/3/LINEAMIENTOS%20PARA%20LA%20PLANIFICACI%C3%93N%20EJECUCI%C3%93N%20Y%20EVALUACI%C3%93N%20DE%20LOS%20PROYECO%20DE%20LA%20MATERIA%20INTEGRADORA.PDF",
+    "consulted": "2026-10-29",
+    "scope": "Versión agosto 2024; requisitos integradora; confirmar vigencia"
+  }
+]

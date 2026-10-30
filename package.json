@@ -1,0 +1,40 @@
+{
+  "name": "polinexo",
+  "version": "2.0.0",
+  "description": "Acompa\u00c3\u00b1amiento acad\u00c3\u00a9mico explicable con Gemma 4 y un motor de requisitos verificable.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc && vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "node --test test-polinexo.mjs tests/*.test.mjs",
+    "test:ui": "node scripts/test-flows-ui.mjs",
+    "verify:gemma": "node --env-file=.env scripts/verify-gemma.mjs",
+    "test:live": "node scripts/test-live-paced.mjs",
+    "export:public": "node scripts/export-public.mjs",
+    "api": "node --env-file=.env server/http.mjs",
+    "start": "node server/production.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@google/genai": "^2.32.0",
+    "@phosphor-icons/react": "^2.1.10",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.64.1",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.5"
+  },
+  "engines": {
+    "node": ">=24 <25"
+  }
+}

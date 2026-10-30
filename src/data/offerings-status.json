@@ -1,0 +1,14 @@
+{
+  "checked": "2026-10-30",
+  "career": "Ingeniería en Computación · ESPOL",
+  "status": "oferta vigente de paralelos y horas no verificada en las fuentes públicas consultadas",
+  "officialAcademicPortal": "https://www.academico.espol.edu.ec/",
+  "records": [],
+  "notes": [
+    "El portal público consultado muestra acceso al Académico; no se utilizaron credenciales.",
+    "El manual de Consejerías llama horarios disponibles a las citas de consejería, no a clases; no se importó como oferta de asignaturas.",
+    "No se reutilizaron horarios de admisión, otras facultades ni una planificación de 2016 para Computación actual.",
+    "Las horas ingresadas por el estudiante son declaradas, no verificadas contra la oferta oficial."
+  ],
+  "futureRecordRequiredFields": ["PAO", "courseCode", "curriculumVersion", "parallel", "teacher", "sessionType", "dayOrDate", "start", "end", "source", "updatedAt"]
+}

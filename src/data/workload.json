@@ -1,0 +1,275 @@
+{
+  "ADMG1005": {
+    "teaching": 3,
+    "practice": 1,
+    "independent": 5,
+    "source": "research/syllabi/ADMG1005.txt",
+    "interpretation": "Horas de sílabo, tratadas como carga semanal orientativa; no dificultad ni predicción."
+  },
+  "ADSG1026": {
+    "teaching": 3,
+    "practice": 0,
+    "independent": 6,
+    "source": "research/syllabi/ADSG1026.txt",
+    "interpretation": "Horas de sílabo, tratadas como carga semanal orientativa; no dificultad ni predicción."
+  },
+  "CCPG1034": {
+    "teaching": 3,
+    "practice": 1,
+    "independent": 5,
+    "source": "research/syllabi/CCPG1034.txt",
+    "interpretation": "Horas de sílabo, tratadas como carga semanal orientativa; no dificultad ni predicción."
+  },
+  "CCPG1035": {
+    "teaching": 3,
+    "practice": 0,
+    "independent": 6,
+    "source": "research/syllabi/CCPG1035.txt",
+    "interpretation": "Horas de sílabo, tratadas como carga semanal orientativa; no dificultad ni predicción."
+  },
+  "CCPG1036": {
+    "teaching": 2,
+    "practice": 1,
+    "independent": 3,
+    "source": "research/syllabi/CCPG1036.txt",
+    "interpretation": "Horas de sílabo, tratadas como carga semanal orientativa; no dificultad ni predicción."
+  },
+  "CCPG1039": {
+    "teaching": 2,
+    "practice": 1,
+    "independent": 3,
+    "source": "research/syllabi/CCPG1039.txt",
+    "interpretation": "Horas de sílabo, tratadas como carga semanal orientativa; no dificultad ni predicción."
+  },
+  "CCPG1041": {
+    "teaching": 2,
+    "practice": 1,
+    "independent": 3,
+    "source": "research/syllabi/CCPG1041.txt",
+    "interpretation": "Horas de sílabo, tratadas como carga semanal orientativa; no dificultad ni predicción."
+  },
+  "CCPG1042": {
+    "teaching": 2,
+    "practice": 2,
+    "independent": 2,
+    "source": "research/syllabi/CCPG1042.txt",
+    "interpretation": "Horas de sílabo, tratadas como carga semanal orientativa; no dificultad ni predicción."
+  },
+  "CCPG1043": {
+    "teaching": 3,
+    "practice": 1,
+    "independent": 5,
+    "source": "research/syllabi/CCPG1043.txt",
+    "interpretation": "Horas de sílabo, tratadas como carga semanal orientativa; no dificultad ni predicción."
+  },
+  "CCPG1044": {
+    "teaching": 3,
+    "practice": 0,
+    "independent": 6,
+    "source": "research/syllabi/CCPG1044.txt",
+    "interpretation": "Horas de sílabo, tratadas como carga semanal orientativa; no dificultad ni predicción."
+  },
+  "CCPG1046": {
+    "teaching": 2,
+    "practice": 2,
+    "independent": 2,
+    "source": "research/syllabi/CCPG1046.txt",
+    "interpretation": "Horas de sílabo, tratadas como carga semanal orientativa; no dificultad ni predicción."
+  },
+  "CCPG1048": {
+    "teaching": 2,
+    "practice": 1,
+    "independent": 3,
+    "source": "research/syllabi/CCPG1048.txt",
+    "interpretation": "Horas de sílabo, tratadas como carga semanal orientativa; no dificultad ni predicción."
+  },
+  "CCPG1049": {
+    "teaching": 2,
+    "practice": 1,
+    "independent": 3,
+    "source": "research/syllabi/CCPG1049.txt",
+    "interpretation": "Horas de sílabo, tratadas como carga semanal orientativa; no dificultad ni predicción."
+  },
+  "CCPG1051": {
+    "teaching": 3,
+    "practice": 1,
+    "independent": 5,
+    "source": "research/syllabi/CCPG1051.txt",
+    "interpretation": "Horas de sílabo, tratadas como carga semanal orientativa; no dificultad ni predicción."
+  },
+  "CCPG1052": {
+    "teaching": 3,
+    "practice": 1,
+    "independent": 5,
+    "source": "research/syllabi/CCPG1052.txt",
+    "interpretation": "Horas de sílabo, tratadas como carga semanal orientativa; no dificultad ni predicción."
+  },
+  "CCPG1053": {
+    "teaching": 2,
+    "practice": 1,
+    "independent": 3,
+    "source": "research/syllabi/CCPG1053.txt",
+    "interpretation": "Horas de sílabo, tratadas como carga semanal orientativa; no dificultad ni predicción."
+  },
+  "CCPG1054": {
+    "teaching": 2,
+    "practice": 1,
+    "independent": 3,
+    "source": "research/syllabi/CCPG1054.txt",
+    "interpretation": "Horas de sílabo, tratadas como carga semanal orientativa; no dificultad ni predicción."
+  },
+  "CCPG1055": {
+    "teaching": 3,
+    "practice": 1,
+    "independent": 5,
+    "source": "research/syllabi/CCPG1055.txt",
+    "interpretation": "Horas de sílabo, tratadas como carga semanal orientativa; no dificultad ni predicción."
+  },
+  "CCPG1056": {
+    "teaching": 3,
+    "practice": 0,
+    "independent": 6,
+    "source": "research/syllabi/CCPG1056.txt",
+    "interpretation": "Horas de sílabo, tratadas como carga semanal orientativa; no dificultad ni predicción."
+  },
+  "ESTG1034": {
+    "teaching": 3,
+    "practice": 1,
+    "independent": 5,
+    "source": "research/syllabi/ESTG1034.txt",
+    "interpretation": "Horas de sílabo, tratadas como carga semanal orientativa; no dificultad ni predicción."
+  },
+  "EYAG1037": {
+    "teaching": 2,
+    "practice": 1,
+    "independent": 3,
+    "source": "research/syllabi/EYAG1037.txt",
+    "interpretation": "Horas de sílabo, tratadas como carga semanal orientativa; no dificultad ni predicción."
+  },
+  "FISG1005": {
+    "teaching": 3,
+    "practice": 2,
+    "independent": 4,
+    "source": "research/syllabi/FISG1005.txt",
+    "interpretation": "Horas de sílabo, tratadas como carga semanal orientativa; no dificultad ni predicción."
+  },
+  "IDIG1006": {
+    "teaching": 2,
+    "practice": 2,
+    "independent": 2,
+    "source": "research/syllabi/IDIG1006.txt",
+    "interpretation": "Horas de sílabo, tratadas como carga semanal orientativa; no dificultad ni predicción."
+  },
+  "IDIG1007": {
+    "teaching": 2,
+    "practice": 2,
+    "independent": 2,
+    "source": "research/syllabi/IDIG1007.txt",
+    "interpretation": "Horas de sílabo, tratadas como carga semanal orientativa; no dificultad ni predicción."
+  },
+  "IDIG1008": {
+    "teaching": 2,
+    "practice": 2,
+    "independent": 2,
+    "source": "research/syllabi/IDIG1008.txt",
+    "interpretation": "Horas de sílabo, tratadas como carga semanal orientativa; no dificultad ni predicción."
+  },
+  "IDIG1009": {
+    "teaching": 2,
+    "practice": 2,
+    "independent": 2,
+    "source": "research/syllabi/IDIG1009.txt",
+    "interpretation": "Horas de sílabo, tratadas como carga semanal orientativa; no dificultad ni predicción."
+  },
+  "IDIG1010": {
+    "teaching": 2,
+    "practice": 2,
+    "independent": 2,
+    "source": "research/syllabi/IDIG1010.txt",
+    "interpretation": "Horas de sílabo, tratadas como carga semanal orientativa; no dificultad ni predicción."
+  },
+  "IDIG2012": {
+    "teaching": 2,
+    "practice": 2,
+    "independent": 2,
+    "source": "research/syllabi/IDIG2012.txt",
+    "interpretation": "Horas de sílabo, tratadas como carga semanal orientativa; no dificultad ni predicción."
+  },
+  "INDG1033": {
+    "teaching": 3,
+    "practice": 0,
+    "independent": 6,
+    "source": "research/syllabi/INDG1033.txt",
+    "interpretation": "Horas de sílabo, tratadas como carga semanal orientativa; no dificultad ni predicción."
+  },
+  "MATG1045": {
+    "teaching": 3,
+    "practice": 2,
+    "independent": 4,
+    "source": "research/syllabi/MATG1045.txt",
+    "interpretation": "Horas de sílabo, tratadas como carga semanal orientativa; no dificultad ni predicción."
+  },
+  "MATG1046": {
+    "teaching": 3,
+    "practice": 2,
+    "independent": 4,
+    "source": "research/syllabi/MATG1046.txt",
+    "interpretation": "Horas de sílabo, tratadas como carga semanal orientativa; no dificultad ni predicción."
+  },
+  "MATG1049": {
+    "teaching": 3,
+    "practice": 1,
+    "independent": 5,
+    "source": "research/syllabi/MATG1049.txt",
+    "interpretation": "Horas de sílabo, tratadas como carga semanal orientativa; no dificultad ni predicción."
+  },
+  "MATG1051": {
+    "teaching": 3,
+    "practice": 1,
+    "independent": 5,
+    "source": "research/syllabi/MATG1051.txt",
+    "interpretation": "Horas de sílabo, tratadas como carga semanal orientativa; no dificultad ni predicción."
+  },
+  "SOFG1006": {
+    "teaching": 3,
+    "practice": 1,
+    "independent": 5,
+    "source": "research/syllabi/SOFG1006.txt",
+    "interpretation": "Horas de sílabo, tratadas como carga semanal orientativa; no dificultad ni predicción."
+  },
+  "SOFG1007": {
+    "teaching": 2,
+    "practice": 2,
+    "independent": 2,
+    "source": "research/syllabi/SOFG1007.txt",
+    "interpretation": "Horas de sílabo, tratadas como carga semanal orientativa; no dificultad ni predicción."
+  },
+  "SOFG1008": {
+    "teaching": 3,
+    "practice": 1,
+    "independent": 5,
+    "source": "research/syllabi/SOFG1008.txt",
+    "interpretation": "Horas de sílabo, tratadas como carga semanal orientativa; no dificultad ni predicción."
+  },
+  "SOFG1009": {
+    "teaching": 3,
+    "practice": 0,
+    "independent": 6,
+    "source": "research/syllabi/SOFG1009.txt",
+    "interpretation": "Horas de sílabo, tratadas como carga semanal orientativa; no dificultad ni predicción."
+  },
+  "TICG1018": {
+    "teaching": 3,
+    "practice": 1,
+    "independent": 5,
+    "source": "research/syllabi/TICG1018.txt",
+    "interpretation": "Horas de sílabo, tratadas como carga semanal orientativa; no dificultad ni predicción."
+  },
+  "TLMG1032": {
+    "teaching": 3,
+    "practice": 1,
+    "independent": 5,
+    "source": "research/syllabi/TLMG1032.txt",
+    "interpretation": "Horas de sílabo, tratadas como carga semanal orientativa; no dificultad ni predicción."
+  }
+}

@@ -1,0 +1,4 @@
+# Revisión de navegación y fuentes
+La única carpeta activa es mi-ruta-espol-corregido. La anterior se trasladó a ../respaldo-version-anterior/mi-ruta-espol para conservar investigación y permitir recuperación. release/polinexo-public es una exportación, no otra aplicación en ejecución; dist es resultado de compilación.
+Las tres elecciones se conservan en Inicio. Dentro se presenta únicamente la tarea elegida, con retorno y conversación cerrada inicialmente. Nexi mantiene acompañamiento y gestos.
+SAAC consultado el 30/10/2026: Estructuras de datos CCPG1034, primera página del histórico. Se guardan tres docentes observados, separados por periodo; cobertura parcial explícita. Media simple entre paralelos del mismo docente/materia/periodo. No ponderar con porcentajes de respuesta: faltan denominadores. No combinar escalas de SAAC y PoliRecomienda ni tratar evaluación como tasa de aprobación. Pendiente ampliar sistemáticamente cobertura a las demás materias y páginas.

@@ -1,0 +1,39 @@
+[
+  {
+    "id": "regularity",
+    "minimum": 9,
+    "ordinaryMaximum": 15,
+    "source": "faq-fcsh",
+    "status": "published-guidance-not-universal-validator",
+    "note": "Menos de 9 no equivale a matrícula prohibida. Prácticas y situación a prueba requieren tratamiento específico."
+  },
+  {
+    "id": "internships",
+    "companyHours": 240,
+    "communityHours": 96,
+    "companyCredits": 5,
+    "communityCredits": 2,
+    "source": "fiec",
+    "status": "verified-published"
+  },
+  {
+    "id": "integration",
+    "courseCredits": 3,
+    "projectCredits": 5,
+    "source": "fiec",
+    "status": "verified-published",
+    "note": "No importar los 8 créditos de integradora de FAQ FIEC 2022 como créditos de CCPG1035."
+  },
+  {
+    "id": "integration-entry",
+    "source": "lineamientos",
+    "status": "published-2024-confirm-current-applicability",
+    "note": "Prácticas completadas; créditos de malla aprobados excepto integradora y máximo 7 adicionales. La malla incorpora &39: pendiente reconciliar."
+  },
+  {
+    "id": "third-attempt",
+    "source": "faq-fiec",
+    "status": "historical-pending",
+    "note": "Archivo 2022 menciona máximo tres materias incluida a prueba; no activar como regla vigente sin validación."
+  }
+]

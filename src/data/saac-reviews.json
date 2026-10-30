@@ -1,0 +1,48 @@
+{
+  "checked": "2026-10-30",
+  "source": "https://saac.espol.edu.ec/heteroevaluacion-reportes/paralelos-materia/CCPG1034/1/10",
+  "coverage": "Consulta parcial: primera página; no representa a todos los docentes ni todos los periodos.",
+  "records": [
+    {
+      "teacher": "COLLAGUAZO JARAMILLO ADRIANA ELISA",
+      "courseCode": "CCPG1034",
+      "period": "2026-1S",
+      "sections": [
+        {
+          "parallel": "1",
+          "score": 97.25,
+          "responsePercent": 100
+        },
+        {
+          "parallel": "3",
+          "score": 91.95,
+          "responsePercent": 100
+        }
+      ]
+    },
+    {
+      "teacher": "SANTILLAN PADILLA STEVEN ISAAC",
+      "courseCode": "CCPG1034",
+      "period": "2026-1S",
+      "sections": [
+        {
+          "parallel": "2",
+          "score": 98.25,
+          "responsePercent": 94
+        }
+      ]
+    },
+    {
+      "teacher": "CRUZ RUIZ VÍCTOR HUGO",
+      "courseCode": "CCPG1034",
+      "period": "2025-1S",
+      "sections": [
+        {
+          "parallel": "4",
+          "score": 85.2,
+          "responsePercent": 92
+        }
+      ]
+    }
+  ]
+}

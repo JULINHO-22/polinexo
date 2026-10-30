@@ -1,0 +1,10 @@
+# Decisiones de diseño
+Se analizaron las dos capturas proporcionadas directamente: azul institucional, marca tipográfica apilada, seis servicios en retícula, saludo y navegación inferior redondeada. No se copiaron nombre, matrícula, avatar ni imagen completa. La marca de texto es una interpretación visual, no el recurso oficial. Se redujo el espacio del avatar para dejar información útil en el primer desplazamiento.
+
+Paleta: marino #203c70, tinta #203453, celeste sobrio #297797, fondo #f5f7fa, líneas #e5eaf0 y verde semántico #27674e. Tipografía Segoe UI del sistema Windows, fallback sans-serif; evita descargas y dependencias de red. Títulos compactos de 28px móvil, cuerpo 12–14px, estados con texto además de color. Íconos Phosphor consistentes. Bordes suaves de 10–16px; navegación 21px. Sin animación decorativa ni gráficos empresariales.
+
+Composición móvil de una columna: cabecera → mensaje → tres cifras → avance → ruta → consecuencia → accesos. Escritorio utiliza sidebar y una columna de lectura limitada; no estira tarjetas a todo el ancho. Navegación entre vistas es real y únicamente sirve a inspección. Elegir ruta está deshabilitado y rotulado próxima fase. Servicios del inicio son muestras no interactivas.
+
+Skill frontend-design aplicada. Se inspeccionó Desktop real con API de Windows: (ruta local omitida) Niot existe y permanece intacta. Se leyó taste-skill y DESIGN.md: la skill declara que no está dirigida a aplicaciones de varios pasos; se tomaron criterios pertinentes de legibilidad, íconos y consistencia, sin adoptar sus dependencias o reglas de landing. No se ejecutaron scripts de Niot ni se instalaron skills. No hubo servicios de pago.
+
+Revisión: capturas Playwright con Chrome local, 390px y 1280px en siete vistas, comprobación de desbordamiento horizontal y errores de página. Evidencias en research/*png y visual-qa.json. Se revisaron visualmente resumen, malla y escritorio. Segunda pasada: avance corregido con total publicado 120, separación de proyecto integrador y condiciones desconocidas preservadas.

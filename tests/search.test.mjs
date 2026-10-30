@@ -1,0 +1,4 @@
+import {test} from 'node:test';import assert from 'node:assert/strict';import {search,downstream} from '../src/polinexo/engine.ts';
+const p={approved:[],failed:[],inProgress:[],attempts:[]},pref={target:12,hours:40,priority:'equilibrar',pace:'equilibrada'};
+test('Large candidate pool has bounded work and explicitly reports partial search',()=>{const cs=Array.from({length:80},(_,i)=>({id:'C'+i,name:'Course '+i,code:'C'+i,credits:1,prerequisites:[],corequisites:[],conditions:[],unlocks:[],level:1}));const r=search(cs,p,pref,{},[],500);assert(r.visited<=501);assert.equal(r.complete,false);assert(r.options.length<=6);assert(r.options.every(o=>o.credits>=9&&o.credits<=15));});
+test('Dependencies tolerate cycles without recursion overflow',()=>{const cs=[{id:'A',prerequisites:['B']},{id:'B',prerequisites:['A']}];assert(downstream('A',cs).length<=2);});

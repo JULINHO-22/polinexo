@@ -1,0 +1,149 @@
+{
+  "CCPG1039": {
+    "purpose": "Tomar decisiones responsables al trabajar con tecnología.",
+    "example": "Evaluar privacidad y efectos de una aplicación antes de lanzarla.",
+    "field": "Producto digital y ética tecnológica",
+    "status": "explicación editorial orientativa, no descripción oficial de puestos",
+    "basis": "https://mallacurricular.espol.edu.ec/Malla/ReporteSyllabusEUR_ACE?idmateria=6815&carrera=236&idioma=spa"
+  },
+  "CCPG1052": {
+    "purpose": "Construir programas que puedas ampliar y mantener.",
+    "example": "Organizar las piezas de una aplicación de ventas sin reescribirla cada vez.",
+    "field": "Desarrollo de software",
+    "status": "explicación editorial orientativa, no descripción oficial de puestos",
+    "basis": "https://mallacurricular.espol.edu.ec/Malla/ReporteSyllabusEUR_ACE?idmateria=6874&carrera=236&idioma=spa"
+  },
+  "CCPG1034": {
+    "purpose": "Organizar información para que un programa responda bien.",
+    "example": "Elegir cómo guardar y buscar miles de productos en una tienda.",
+    "field": "Desarrollo de software y procesamiento de datos",
+    "status": "explicación editorial orientativa, no descripción oficial de puestos",
+    "basis": "https://mallacurricular.espol.edu.ec/Malla/ReporteSyllabusEUR_ACE?idmateria=6798&carrera=236&idioma=spa"
+  },
+  "CCPG1042": {
+    "purpose": "Planear cómo encajan las partes de un programa.",
+    "example": "Diseñar una aplicación que otro equipo pueda entender y ampliar.",
+    "field": "Arquitectura y desarrollo de software",
+    "status": "explicación editorial orientativa, no descripción oficial de puestos",
+    "basis": "https://mallacurricular.espol.edu.ec/Malla/ReporteSyllabusEUR_ACE?idmateria=6828&carrera=236&idioma=spa"
+  },
+  "TICG1018": {
+    "purpose": "Guardar y consultar información de forma ordenada.",
+    "example": "Administrar clientes, pedidos e inventario de un negocio.",
+    "field": "Desarrollo backend y gestión de datos",
+    "status": "explicación editorial orientativa, no descripción oficial de puestos",
+    "basis": "https://mallacurricular.espol.edu.ec/Malla/ReporteSyllabusEUR_ACE?idmateria=6884&carrera=236&idioma=spa"
+  },
+  "CCPG1049": {
+    "purpose": "Entender qué hace el computador por dentro.",
+    "example": "Investigar por qué un programa aprovecha mal el procesador o la memoria.",
+    "field": "Sistemas y rendimiento de software",
+    "status": "explicación editorial orientativa, no descripción oficial de puestos",
+    "basis": "https://mallacurricular.espol.edu.ec/Malla/ReporteSyllabusEUR_ACE?idmateria=6867&carrera=236&idioma=spa"
+  },
+  "CCPG1051": {
+    "purpose": "Crear programas que trabajan cerca del sistema operativo.",
+    "example": "Escribir herramientas para administrar archivos y procesos en Linux.",
+    "field": "Infraestructura y software de sistemas",
+    "status": "explicación editorial orientativa, no descripción oficial de puestos",
+    "basis": "https://mallacurricular.espol.edu.ec/Malla/ReporteSyllabusEUR_ACE?idmateria=6873&carrera=236&idioma=spa"
+  },
+  "CCPG1046": {
+    "purpose": "Diseñar herramientas que las personas puedan usar sin confundirse.",
+    "example": "Probar con usuarios si una pantalla de pagos es clara.",
+    "field": "Diseño UX y desarrollo de producto",
+    "status": "explicación editorial orientativa, no descripción oficial de puestos",
+    "basis": "https://mallacurricular.espol.edu.ec/Malla/ReporteSyllabusEUR_ACE?idmateria=6851&carrera=236&idioma=spa"
+  },
+  "TLMG1032": {
+    "purpose": "Entender cómo se comunican los equipos.",
+    "example": "Configurar y revisar la red que conecta las oficinas de una empresa.",
+    "field": "Redes e infraestructura",
+    "status": "explicación editorial orientativa, no descripción oficial de puestos",
+    "basis": "https://mallacurricular.espol.edu.ec/Malla/ReporteSyllabusEUR_ACE?idmateria=6877&carrera=236&idioma=spa"
+  },
+  "CCPG1056": {
+    "purpose": "Entender cómo el computador reparte sus recursos.",
+    "example": "Investigar por qué un servidor se queda sin memoria o responde lento.",
+    "field": "Administración de sistemas y desarrollo de infraestructura",
+    "status": "explicación editorial orientativa, no descripción oficial de puestos",
+    "basis": "https://mallacurricular.espol.edu.ec/Malla/ReporteSyllabusEUR_ACE?idmateria=6897&carrera=236&idioma=spa"
+  },
+  "CCPG1036": {
+    "purpose": "Comparar maneras de resolver un problema sin desperdiciar recursos.",
+    "example": "Escoger una solución de búsqueda que siga siendo rápida al crecer los datos.",
+    "field": "Desarrollo y optimización de software",
+    "status": "explicación editorial orientativa, no descripción oficial de puestos",
+    "basis": "https://mallacurricular.espol.edu.ec/Malla/ReporteSyllabusEUR_ACE?idmateria=6803&carrera=236&idioma=spa"
+  },
+  "SOFG1006": {
+    "purpose": "Construir aplicaciones para navegador y teléfono.",
+    "example": "Desarrollar un servicio de reservas con una interfaz que funciona en móviles.",
+    "field": "Desarrollo web y móvil",
+    "status": "explicación editorial orientativa, no descripción oficial de puestos",
+    "basis": "https://mallacurricular.espol.edu.ec/Malla/ReporteSyllabusEUR_ACE?idmateria=6822&carrera=236&idioma=spa"
+  },
+  "SOFG1007": {
+    "purpose": "Organizar el desarrollo de un producto con un equipo.",
+    "example": "Convertir lo que necesita un cliente en entregas comprobables.",
+    "field": "Ingeniería de software",
+    "status": "explicación editorial orientativa, no descripción oficial de puestos",
+    "basis": "https://mallacurricular.espol.edu.ec/Malla/ReporteSyllabusEUR_ACE?idmateria=6845&carrera=236&idioma=spa"
+  },
+  "CCPG1053": {
+    "purpose": "Proteger información y reconocer riesgos.",
+    "example": "Revisar cómo una aplicación protege cuentas y datos de sus usuarios.",
+    "field": "Ciberseguridad y desarrollo seguro",
+    "status": "explicación editorial orientativa, no descripción oficial de puestos",
+    "basis": "https://mallacurricular.espol.edu.ec/Malla/ReporteSyllabusEUR_ACE?idmateria=6882&carrera=236&idioma=spa"
+  },
+  "CCPG1048": {
+    "purpose": "Investigar una pregunta técnica con evidencia.",
+    "example": "Comparar dos soluciones y explicar qué resultados respaldan la elección.",
+    "field": "Investigación y desarrollo tecnológico",
+    "status": "explicación editorial orientativa, no descripción oficial de puestos",
+    "basis": "https://mallacurricular.espol.edu.ec/Malla/ReporteSyllabusEUR_ACE?idmateria=6863&carrera=236&idioma=spa"
+  },
+  "SOFG1009": {
+    "purpose": "Entender distintas formas de expresar y ejecutar programas.",
+    "example": "Elegir un lenguaje y un enfoque adecuados para un proyecto.",
+    "field": "Desarrollo de herramientas y lenguajes",
+    "status": "explicación editorial orientativa, no descripción oficial de puestos",
+    "basis": "https://mallacurricular.espol.edu.ec/Malla/ReporteSyllabusEUR_ACE?idmateria=6855&carrera=236&idioma=spa"
+  },
+  "SOFG1008": {
+    "purpose": "Mejorar cómo se construye, comprueba y mantiene software.",
+    "example": "Gestionar cambios y calidad cuando un proyecto crece.",
+    "field": "Ingeniería y calidad de software",
+    "status": "explicación editorial orientativa, no descripción oficial de puestos",
+    "basis": "https://mallacurricular.espol.edu.ec/Malla/ReporteSyllabusEUR_ACE?idmateria=6846&carrera=236&idioma=spa"
+  },
+  "CCPG1044": {
+    "purpose": "Resolver tareas con métodos de inteligencia artificial.",
+    "example": "Explorar cómo automatizar una decisión y evaluar si sus resultados sirven.",
+    "field": "Inteligencia artificial aplicada",
+    "status": "explicación editorial orientativa, no descripción oficial de puestos",
+    "basis": "https://mallacurricular.espol.edu.ec/Malla/ReporteSyllabusEUR_ACE?idmateria=6849&carrera=236&idioma=spa"
+  },
+  "CCPG1054": {
+    "purpose": "Conectar la tecnología con el funcionamiento de una organización.",
+    "example": "Diseñar un sistema que ayude a coordinar las operaciones de una empresa.",
+    "field": "Análisis de sistemas y tecnología empresarial",
+    "status": "explicación editorial orientativa, no descripción oficial de puestos",
+    "basis": "https://mallacurricular.espol.edu.ec/Malla/ReporteSyllabusEUR_ACE?idmateria=6888&carrera=236&idioma=spa"
+  },
+  "CCPG1055": {
+    "purpose": "Construir servicios que trabajan en varios equipos.",
+    "example": "Distribuir una aplicación en servidores y entender qué pasa si alguno falla.",
+    "field": "Sistemas distribuidos y servicios en la nube",
+    "status": "explicación editorial orientativa, no descripción oficial de puestos",
+    "basis": "https://mallacurricular.espol.edu.ec/Malla/ReporteSyllabusEUR_ACE?idmateria=6894&carrera=236&idioma=spa"
+  },
+  "CCPG1041": {
+    "purpose": "Organizar personas, tiempo y recursos de un proyecto tecnológico.",
+    "example": "Preparar entregas, identificar riesgos y dar seguimiento a un equipo.",
+    "field": "Gestión de proyectos tecnológicos",
+    "status": "explicación editorial orientativa, no descripción oficial de puestos",
+    "basis": "https://mallacurricular.espol.edu.ec/Malla/ReporteSyllabusEUR_ACE?idmateria=6825&carrera=236&idioma=spa"
+  }
+}
