@@ -14,7 +14,7 @@ Abrir http://127.0.0.1:5174/polinexo o /inicio. `npm run build` compila; `npm ru
 Sin clave, el planificador y los simuladores funcionan con el motor local; la conversación muestra **IA desconectada** y no inventa respuestas de Gemma. No hay un chatbot de palabras clave usado como sustituto silencioso.
 
 ## Google Gemma mediante Gemini API
-Modelo predeterminado exacto: **gemma-4-26b-a4b-it**. Alternativa explícita: **gemma-4-31b-it**, configurando GEMMA_MODEL y reiniciando. SDK oficial **@google/genai 2.32.0**; invocación `models.generateContent` en server/agent.mjs. Nunca se sustituye por un modelo Gemini.
+Modelo predeterminado exacto: **gemma-4-26b-a4b-it**. Alternativa explícita: **gemma-4-31b-it**, configurando GEMMA_MODEL y reiniciando. SDK oficial **@google/genai 2.32.0**; invocación `models.generateContent` en server/http.mjs, orquestada por server/agent.mjs. Nunca se sustituye por un modelo Gemini.
 
 En `.env` privado:
 
@@ -54,7 +54,7 @@ Pruebas de motor, presupuesto de búsqueda, contrato de herramientas, validació
 ## Repositorio y licencias
 LICENSE MIT para código original y Nexi. THIRD_PARTY_NOTICES.md distingue material propio de los recortes de Mi ESPOL. **No se asume autorización de redistribución de esos recortes.** La demo local los conserva; la fuente pública los sustituye por imágenes originales de referencia. No es una actualización oficial de ESPOL.
 
-`npm run export:public` prepara release/polinexo-public, inicializa Git local y genera inventario de licencias. No publica en GitHub. Exportar requiere Python/Pillow solo para generar los sustitutos; ejecutar la aplicación pública ya exportada solo requiere Node. El repositorio público excluye claves, node_modules, copias antiguas, documentos ajenos y PDFs de investigación. Obtener autorización antes de volver a incluir imágenes de Mi ESPOL. El requisito de repositorio GitHub público sigue pendiente hasta publicarlo bajo una cuenta autorizada.
+`npm run export:public` prepara release/polinexo-public, inicializa Git local y genera inventario de licencias. No publica en GitHub. Exportar requiere Python/Pillow solo para generar los sustitutos; ejecutar la aplicación pública ya exportada solo requiere Node. El repositorio público excluye claves, node_modules, copias antiguas, documentos ajenos y PDFs de investigación. Obtener autorización antes de volver a incluir imágenes de Mi ESPOL. Repositorio público: https://github.com/JULINHO-22/polinexo · Repositorio privado de despliegue: https://github.com/JULINHO-22/polinexo-render.
 
 Investigación académica preservada en docs/INVESTIGACION.md, docs/CATALOGO.md y src/data. Condiciones no verificadas se excluyen de recomendaciones. Oferta, cupos, horarios y vigencia por cohorte deben ratificarse con ESPOL. Tasas históricas y probabilidades individuales siguen no disponibles.
 
