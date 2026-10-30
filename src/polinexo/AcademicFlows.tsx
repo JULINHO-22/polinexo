@@ -1,3 +1,4 @@
+import {PlanGrid} from './PlanGrid';
 import React, {useMemo, useState} from 'react';
 import {ArrowLeft, ArrowRight, Check, Briefcase, Info, GitBranch, Books, Clock, Plus} from '@phosphor-icons/react';
 import catalog from '../data/catalog.json';
@@ -89,23 +90,11 @@ export function ImproveFlow(p:Props){
 }
 
 export function ImpactFlow(p:Props){
- const [focus,setFocus]=useState<string|null>(null);
- const opened=future(p.plan,cs,student),valid=validate(p.plan,cs,student);
- const affected=focus?cs.filter(c=>downstream(focus,cs).includes(c.id)||c.corequisites.some(r=>r===focus)):[];
- const alternative=useMemo(()=>focus?search(cs,student,{...p.pref,priority:'avance',target:creditSum(p.plan,cs),exactCredits:false},hours,[focus]).options.sort((a,b)=>b.ids.filter(id=>p.plan.includes(id)).length-a.ids.filter(id=>p.plan.includes(id)).length)[0]:null,[focus,p.plan.join(),p.pref]);
- const lost=focus?opened.filter(id=>!future(p.plan,cs,student,[focus]).includes(id)):[];
- const horizon=useMemo(()=>simulateHorizon(p.plan,cs,student,p.pref,hours,[],3),[p.plan.join(),p.pref]);
- return <div className="academic-flow impact-flow progress-story">
- <header className="flow-heading"><h2>Así seguirías avanzando</h2><p>Esto es lo que tu selección deja abierto para después.</p></header>
- <section className="progress-intro"><span>Tu próximo PAO</span><h3>{p.plan.length} materias · {creditSum(p.plan,cs)} créditos</h3><p>{opened.length?`Si las apruebas, podrías cumplir los requisitos de ${opened.length} materias más.`:'Esta selección no habilita nuevas materias verificadas por sí sola.'}</p><button className="subject-link" onClick={p.onEdit}>Cambiar mis materias <ArrowRight size={14}/></button></section>
- {!valid.ok&&<p className="selection-guidance">{valid.errors.map(friendly).join('. ')}</p>}
- <DelayWatch ids={p.plan}/>
- <section className="progress-subjects" aria-label="Tu selección y sus consecuencias">{p.plan.map(id=><article className={'progress-subject '+(focus===id?'exploring':'')} key={id}><div><button className="progress-name" onClick={()=>p.onInspect(id)}>{course(id).name}<small>{course(id).credits} créditos · {level(course(id).level)}</small></button><button className="postpone-link" aria-expanded={focus===id} onClick={()=>{setFocus(focus===id?null:id);p.onActivity('discovery')}}>{focus===id?'Cerrar':'¿Y si la dejo?'}</button></div>{focus===id&&<section className="postpone-result"><h4>Si pospones {course(id).name}</h4><p>{lost.length?`Todavía no podrías habilitar ${names(lost)} con este plan.`:affected.length?'No cierra nuevas opciones inmediatas de esta selección, pero estas materias seguirían dependiendo de ella:':'No encontramos materias posteriores que la exijan en las relaciones verificadas.'}</p>{affected.length>0&&<div className="dependency-pills">{affected.map(c=><button key={c.id} onClick={()=>p.onInspect(c.id)}>{c.name}<small>{level(c.level)}</small></button>)}</div>}
- {alternative&&validate(alternative.ids,cs,student).ok?<div className="single-replacement"><strong>Una forma de reorganizarlo</strong><p>{names(alternative.ids)}</p><small>{alternative.credits} créditos · Requisitos conocidos revisados</small><button onClick={()=>p.onApply(alternative.ids)}>Usar este cambio <Check size={14}/></button></div>:<p>No encontramos un reemplazo válido de 9–15 créditos.</p>}
- <button className="subject-link" onClick={()=>p.onAsk('Mi plan es '+names(p.plan)+'. Estoy pensando posponer '+course(id).name+'. Explica en pocas palabras qué materias afectaría y si conviene cambiar la selección.')}>Que Nexi me lo explique <ArrowRight size={14}/></button></section>}</article>)}</section>
- <section className="next-door"><h3>Después de aprobar este plan</h3>{opened.length?<div className="dependency-pills">{opened.map(id=><button key={id} onClick={()=>p.onInspect(id)}>{course(id).name}<small>{level(course(id).level)}</small></button>)}</div>:<p>Revisa las pendientes de niveles anteriores antes de decidir.</p>}<small>Son requisitos académicos; la oferta y los cupos se confirman en matrícula.</small></section>
- <details className="progress-timeline"><summary>Ver un posible recorrido por PAO</summary>{horizon.steps.map((step,i)=><div className="roadmap-stop" key={step.term}><span className="roadmap-dot">{step.term}</span><div><h4>{i===0?'Tu selección':`PAO ${step.term}`}</h4><p>{step.valid?names(step.ids):'Falta información para completar este PAO.'}</p>{step.valid&&<small>{step.credits} créditos</small>}</div></div>)}<small>Ejemplo sujeto a aprobación y oferta, con hasta cuatro materias posteriores. No calcula una fecha de graduación.</small></details>
- <button className="progress-ask" onClick={()=>p.onAsk('Analiza mi plan de '+names(p.plan)+'. Dime brevemente qué materias conviene mantener para no cerrar opciones en próximos PAO, con requisitos verificados.')}>Preguntarle a Nexi sobre mi avance <ArrowRight size={16}/></button>
- <ScheduleCheck ids={p.plan}/>
+ const [view,setView]=useState<'full'|'postpone'>('full'),[focus,setFocus]=useState(p.plan[0]);
+ const selected=p.plan.includes(focus)?focus:p.plan[0];
+ return <div className="academic-flow impact-flow visual-impact"><header className="flow-heading"><h2>Tu avance en la malla</h2><p>Ve qué cambia al posponer una materia.</p></header>
+ <div className="impact-view-tabs" aria-label="Vistas de tu planificación"><button aria-pressed={view==='full'} onClick={()=>setView('full')}>Plan completo</button><button aria-pressed={view==='postpone'} onClick={()=>setView('postpone')}>Si pospongo una materia</button></div>
+ <div hidden={view!=='full'}><div className="plan-line"><strong>{p.plan.length} materias · {creditSum(p.plan,cs)} créditos</strong><button onClick={p.onEdit}>Editar plan <ArrowRight size={14}/></button></div><section className="full-plan-list">{p.plan.map(id=><button key={id} onClick={()=>p.onInspect(id)}><span>{course(id).name}</span><small>{course(id).credits} cr.</small></button>)}</section><ScheduleCheck ids={p.plan}/><details className="full-plan-map"><summary>Ver este plan en la malla</summary><PlanGrid ids={p.plan} onInspect={p.onInspect}/></details></div>
+ {view==='postpone'&&<><section className="postpone-picker"><h3>Toca la materia que dejarías</h3><div>{p.plan.map(id=><button key={id} aria-pressed={selected===id} onClick={()=>{setFocus(id);p.onActivity('discovery')}}>{course(id).name}</button>)}</div></section><PlanGrid ids={p.plan} postponed={selected} onInspect={p.onInspect}/><button className="progress-ask" onClick={()=>p.onAsk('Mi plan es '+names(p.plan)+'. ¿Qué cambia en mi malla si pospongo '+course(selected).name+'? Explica una alternativa válida y las dependencias confirmadas en pocas palabras.')}>Preguntarle a Nexi <ArrowRight size={15}/></button></>}
  </div>;
 }

@@ -9,3 +9,5 @@ test('Failed outcome closes verified future edge, no mutation',()=>{const snapsh
 test('Retake history does not revoke passed course',()=>{assert(p.attempts.some(a=>a.code==='MATG1049'&&a.grade<6));assert(p.approved.includes('MATG1049'));assert(!E.generate(cs,p,pref,hours).some(r=>r.ids.includes('MATG1049')))});
 test('Dependencies cycle safe and projection transparent',()=>{assert(E.downstream('CCPG1034',cs).includes('CCPG1036'));const before=p.attempts.reduce((s,a)=>s+a.grade,0)/p.attempts.length;const mean=E.projectMean(p,plan,Object.fromEntries(plan.map(id=>[id,10])));assert(mean>before&&mean<=10)});
 test('Generation is deterministic for identical verified inputs',()=>{assert.deepEqual(E.generate(cs,p,pref,hours),E.generate(cs,p,pref,hours))});
+
+test('Postponing a simultaneous requisite invalidates its companion before projecting later courses',()=>{const out=E.postponementProjection(plan,'MATG1051',cs,p);assert(out.invalidated.includes('CCPG1034'));assert(!out.profile.approved.includes('CCPG1034'));assert(!E.eligibility(c('CCPG1036'),out.profile,[]).ok);assert(!p.approved.includes('CCPG1034'));});
