@@ -1,0 +1,3 @@
+# Chat flotante de Nexi
+Burbuja persistente sobre la navegación, panel independiente del contenido académico y conversación con desplazamiento propio. Cierre por botón o Escape, foco contenido dentro del panel. Muestra las materias de contexto y conserva historial durante la sesión. Preguntar desde una recomendación usa esa selección sin guardarla automáticamente.
+Recuperación acotada: ante JSON mal formado se solicita una única corrección a Gemma usando los resultados ya calculados; no se sustituye el modelo ni se fabrica una respuesta. Si vuelve a fallar o hay cuota/tiempo agotado, se comunica el error. Los reintentos no duplican el mismo mensaje pendiente. Se mantienen validación de propuestas y confirmación del estudiante.
